@@ -1,0 +1,30 @@
+<?php
+define("_MI_SYSTEM_NAME","시스템관리");
+define("_MI_SYSTEM_DESC","사이트의 핵심부분의 설정을 합니다.");
+define("_MI_SYSTEM_BNAME2","등록회원메뉴");
+define("_MI_SYSTEM_BNAME3","로그인");
+define("_MI_SYSTEM_BNAME4","검색");
+define("_MI_SYSTEM_BNAME5","등록대기콘텐츠");
+define("_MI_SYSTEM_BNAME6","메인메뉴");
+define("_MI_SYSTEM_BNAME7","사이트정보");
+define('_MI_SYSTEM_BNAME8', "온라인상황");
+define('_MI_SYSTEM_BNAME9', "투고수랭킹");
+define('_MI_SYSTEM_BNAME10', "신규등록회원");
+define('_MI_SYSTEM_BNAME11', "최근 코멘트");
+define('_MI_SYSTEM_BNAME12', "이벤트통지설정");
+define('_MI_SYSTEM_BNAME13', "테마선택");
+define("_MI_SYSTEM_ADMENU1","배너관리");
+define("_MI_SYSTEM_ADMENU2","블록관리");
+define("_MI_SYSTEM_ADMENU3","그룹관리");
+define("_MI_SYSTEM_ADMENU5","모듈관리");
+define("_MI_SYSTEM_ADMENU6","일반설정");
+define("_MI_SYSTEM_ADMENU7","얼굴아이콘관리");
+define("_MI_SYSTEM_ADMENU9","등록회원등급관리");
+define("_MI_SYSTEM_ADMENU10","등록회원관리");
+define("_MI_SYSTEM_ADMENU11","메일보내기");
+define("_MI_SYSTEM_ADMENU12", "등록회원검색");
+define("_MI_SYSTEM_ADMENU13", "이미지관리");
+define("_MI_SYSTEM_ADMENU14", "아바타관리");
+define("_MI_SYSTEM_ADMENU15", "템플렛관리");
+define("_MI_SYSTEM_ADMENU16", "코멘트관리");
+?>

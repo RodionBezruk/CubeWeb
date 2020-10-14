@@ -1,0 +1,139 @@
+div.calendar { position: relative; }
+.calendar, .calendar table {
+  border: 1px solid #556;
+  font-size: 11px;
+  color: #000;
+  cursor: default;
+  background: #eef;
+  font-family: tahoma,verdana,sans-serif;
+}
+.calendar .button { 
+  text-align: center;    
+  padding: 2px;          
+}
+.calendar thead .title { 
+  font-weight: bold;      
+  text-align: center;
+  background: #fff;
+  color: #000;
+  padding: 2px;
+}
+.calendar thead .headrow { 
+  background: #778;
+  color: #fff;
+}
+.calendar thead .daynames { 
+  background: #bdf;
+}
+.calendar thead .name { 
+  border-bottom: 1px solid #556;
+  padding: 2px;
+  text-align: center;
+  color: #000;
+}
+.calendar thead .weekend { 
+  color: #a66;
+}
+.calendar thead .hilite { 
+  background: #aaf;
+  color: #000;
+  border: 1px solid #04f;
+  padding: 1px;
+}
+.calendar thead .active { 
+  background: #77c;
+  padding: 2px 0px 0px 2px;
+}
+.calendar tbody .day { 
+  width: 2em;
+  color: #456;
+  text-align: right;
+  padding: 2px 4px 2px 2px;
+}
+.calendar table .wn {
+  padding: 2px 3px 2px 2px;
+  border-right: 1px solid #000;
+  background: #bdf;
+}
+.calendar tbody .rowhilite td {
+  background: #def;
+}
+.calendar tbody .rowhilite td.wn {
+  background: #eef;
+}
+.calendar tbody td.hilite { 
+  background: #def;
+  padding: 1px 3px 1px 1px;
+  border: 1px solid #bbb;
+}
+.calendar tbody td.active { 
+  background: #cde;
+  padding: 2px 2px 0px 2px;
+}
+.calendar tbody td.selected { 
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 1px 3px 1px 1px;
+  background: #fff;
+  color: #000;
+}
+.calendar tbody td.weekend { 
+  color: #a66;
+}
+.calendar tbody td.today { 
+  font-weight: bold;
+  color: #00f;
+}
+.calendar tbody .disabled { color: #999; }
+.calendar tbody .emptycell { 
+  visibility: hidden;
+}
+.calendar tbody .emptyrow { 
+  display: none;
+}
+.calendar tfoot .footrow { 
+  text-align: center;
+  background: #556;
+  color: #fff;
+}
+.calendar tfoot .ttip { 
+  background: #fff;
+  color: #445;
+  border-top: 1px solid #556;
+  padding: 1px;
+}
+.calendar tfoot .hilite { 
+  background: #aaf;
+  border: 1px solid #04f;
+  color: #000;
+  padding: 1px;
+}
+.calendar tfoot .active { 
+  background: #77c;
+  padding: 2px 0px 0px 2px;
+}
+.combo {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 4em;
+  cursor: default;
+  border: 1px solid #655;
+  background: #def;
+  color: #000;
+  font-size: smaller;
+}
+.combo .label {
+  width: 100%;
+  text-align: center;
+}
+.combo .hilite {
+  background: #acf;
+}
+.combo .active {
+  border-top: 1px solid #46a;
+  border-bottom: 1px solid #46a;
+  background: #eef;
+  font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<title><{$xoops_sitename}></title>
+<style type="text/css">
+</style>
+</head>
+<body>
+  <div id="header"><a href="<{$xoops_url}>/"><img src="<{$xoops_url}>/images/logo.gif" alt="<{$xoops_sitename}>" title="<{$xoops_sitename}>" /></a></div>
+  <div id="siteclosemsg"><{$lang_siteclosemsg}></div>
+  <{if $xoops_isuser}>
+    <div align="center"><a href="<{$xoops_url}>/user.php?op=logout"><{$smarty.const._LOGOUT}></a></div>
+  <{else}>
+  <form action="<{$xoops_url}>/user.php" method="post">
+    <table id="loginformTable" cellspacing="0">
+      <tr>
+        <th colspan="2"><{$lang_login}></th>
+      </tr>
+      <tr>
+        <td><{$lang_username}></td>
+        <td><input type="text" name="uname" size="14" value="" /></td>
+      </tr>
+      <tr>
+        <td><{$lang_password}></td>
+        <td><input type="password" name="pass" size="14" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="hidden" name="xoops_login" value="1" /><input type="submit" value="<{$lang_login}>" /></td>
+      </tr>
+    </table>
+  </form>
+  <{/if}>
+  <div id="footer">&nbsp;<{$xoops_sitename}></div>
+</body>
+</html>
