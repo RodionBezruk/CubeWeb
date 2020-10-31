@@ -1,6 +1,4 @@
 <?php
-// $Id: search.php,v 1.1 2008/07/05 08:25:21 minahito Exp $
-//%%%%%%	File Name search.php 	%%%%%
 define("_SR_SEARCH","Hledat");
 define("_SR_PLZENTER","Zadejte prosím požadované údaje!");
 define("_SR_SEARCHRESULTS","Výsledky hledání");

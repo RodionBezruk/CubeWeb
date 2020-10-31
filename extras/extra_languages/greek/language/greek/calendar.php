@@ -1,11 +1,4 @@
 <?php
-// $Id$
-//%%%%%		Time Zone	%%%%
-
-// Greek Translation by Yannis yannis@xoopsgreece.gr 27/11/05
-// reviewed by Angelos Plastropoulos (plusangel[at]xoopscube.gr) at 20/10/2006
-
-
 define("_CAL_SUNDAY", "Κυριακή");
 define("_CAL_MONDAY", "Δευτέρα");
 define("_CAL_TUESDAY", "Τρίτη");

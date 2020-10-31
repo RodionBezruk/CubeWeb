@@ -1,8 +1,5 @@
 <?php
-// $Id$
-
 if (!defined('_CM_TITLE')) {
-
 define('_CM_TITLE','Titre');
 define('_CM_MESSAGE','Message');
 define('_CM_DOSMILEY','Permettre les émoticônes');
@@ -20,7 +17,7 @@ define('_CM_PARENT','Parent');
 define('_CM_TOP','Haut');
 define('_CM_BOTTOM','Bas');
 define('_CM_ONLINE','En ligne !');
-define('_CM_POSTED','Posté le'); // Posted date
+define('_CM_POSTED','Posté le'); 
 define('_CM_UPDATED', 'Mis à jour');
 define('_CM_THREAD','Conversation');
 define('_CM_POSTER','Auteur');
@@ -40,7 +37,5 @@ define('_CM_COMAPPROVEUSER','Les commentaires des membres sont toujours approuvé
 define('_CM_COMAPPROVEADMIN',"Tous les commentaires ont besoin d'être approuvés par un Administrateur");
 define('_CM_COMANONPOST','Autoriser les anonymes à poster des commentaires ?');
 define('_CM_COMNOCOM','Désactiver les commentaires');
-
 }
-
 ?>

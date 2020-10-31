@@ -1,8 +1,5 @@
 <?php
-// $Id: comment.php,v 1.1 2008/07/05 08:25:21 minahito Exp $
-
 if (!defined('_CM_TITLE')) {
-
 define('_CM_TITLE','Titulek');
 define('_CM_MESSAGE','Zpráva');
 define('_CM_DOSMILEY','Ikony povoleny');
@@ -20,7 +17,7 @@ define('_CM_PARENT','Mateøská');
 define('_CM_TOP','Nahoru');
 define('_CM_BOTTOM','Dolù');
 define('_CM_ONLINE','Online!');
-define('_CM_POSTED','Podáno'); // Posted date
+define('_CM_POSTED','Podáno'); 
 define('_CM_UPDATED', 'Aktualizace');
 define('_CM_THREAD','Vlákno');
 define('_CM_POSTER','Poslal');

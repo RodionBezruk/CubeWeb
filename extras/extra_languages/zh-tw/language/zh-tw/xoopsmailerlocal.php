@@ -1,8 +1,5 @@
 <?php
-// $Id: xoopsmailerlocal.php,v 1.1 2008/06/22 03:29:11 minahito Exp $
-
 if (!defined('XOOPS_ROOT_PATH')) exit();
-
 class XoopsMailerLocal extends XoopsMailer {
 	function XoopsMailerLocal()
 	{
@@ -15,7 +12,6 @@ class XoopsMailerLocal extends XoopsMailer {
 		$this->multimailer->Encoding = "base64";	
 	}
 }
-
 class XoopsMultiMailerLocal extends XoopsMultiMailer
 {
 	function XoopsMultiMailerLocal()
@@ -23,5 +19,4 @@ class XoopsMultiMailerLocal extends XoopsMultiMailer
 		parent::XoopsMultiMailer();
 	}
 }
-
 ?>

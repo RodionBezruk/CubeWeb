@@ -1,11 +1,4 @@
 <?php
-// $Id$
-// XOOPS CUBE UTF-8 中文翻譯檔
-// 本中文翻譯檔乃直接由英文版翻譯過來,遵照GPL授權協議. 
-// 除了GPL的規範之外,沒有其它限制
-// 翻譯者：SUN (sun@meto.com.tw) http://www.meto.com.tw
-// 參考翻譯來源：OLS3 (ols3@lxer.idv.tw)
-//%%%%%		Time Zone	%%%%
 define("_TZ_GMTM12", "(GMT-12:00) Eniwetok, Kwajalein");
 define("_TZ_GMTM11", "(GMT-11:00) Midway Island, Samoa");
 define("_TZ_GMTM10", "(GMT-10:00) Hawaii");

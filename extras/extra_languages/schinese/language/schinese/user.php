@@ -1,6 +1,4 @@
 <?php
-// $Id$
-//%%%%%%		File Name user.php 		%%%%%
 define('_US_NOTREGISTERED','ÉÐÎ´×¢²áÂð£¿Çëµã»÷<a href="register.php">ÕâÀï</a>×¢²á.');
 define('_US_LOSTPASSWORD','Íü¼ÇÃÜÂëÁË£¿');
 define('_US_NOPROBLEM','Ã»¹ØÏµ£¬ÇëÌîÈëÄú×¢²áµÄEmailÀ´ÕÒ»ØÕÊ»§ÐÅÏ¢');
@@ -10,8 +8,6 @@ define('_US_LOGGEDOUT','ÄúÒÑ¾­ÍË³öÏµÍ³');
 define('_US_THANKYOUFORVISIT','Ð»Ð»Äú¹âÁÙ±¾Õ¾£¡');
 define('_US_INCORRECTLOGIN','µÇÂ¼´íÎó');
 define('_US_LOGGINGU','%sµÇÂ¼±¾Õ¾³É¹¦Íê³É...»¶Ó­¹âÁÙ±¾Õ¾');
-
-// 2001-11-17 ADD
 define('_US_NOACTTPADM','´ËÕÊºÅÉÐÎ´¿ªÆô£¬»òÊÇÒÑ±»É¾³ý¡£<br>ÇëÁªÏµÍøÕ¾¹ÜÀíÔ±');
 define('_US_ACTKEYNOT','Æô¶¯Âë´íÎó£¡');
 define('_US_ACONTACT','ÄúÑ¡ÔñµÄÕÊºÅÒÑ¾­Æô¶¯£¡');
@@ -20,9 +16,6 @@ define('_US_NOPERMISS','¶Ô²»Æð£¬ÄúµÄÈ¨ÏÞ²»¹»£¬²»ÄÜÖ´ÐÐ´ËÏî²Ù×÷£¡');
 define('_US_SURETODEL','ÄúÈ·¶¨ÒªÉ¾³ýÄúµÄÕÊºÅ£¿');
 define('_US_REMOVEINFO','´Ë²Ù×÷½«»áÉ¾³ýÄúÔÚ±¾Õ¾µÄËùÓÐ¸öÈË×ÊÁÏ');
 define('_US_BEENDELED','ÕÊºÅÉ¾³ý³É¹¦Íê³É');
-//
-
-//%%%%%%		File Name register.php 		%%%%%
 define('_US_USERREG','×¢²á±íµ¥');
 define('_US_NICKNAME','ÕÊºÅ');
 define('_US_EMAIL','Email');
@@ -40,20 +33,12 @@ define('_US_DISCLAIMER','×¢²áÇ°ÇëÏêÏ¸ÔÄ¶Á±¾Õ¾Ê¹ÓÃ¹æ¶¨£¬<br>Èç¹û½ÓÊÜ²¢Ô¸Òâ×¢²á£¬Ç
 define('_US_IAGREE','ÎÒ½ÓÊÕÒÔÉÏ¹æÔò');
 define('_US_UNEEDAGREE', '±§Ç¸£¬Äã±ØÐë½ÓÊÜ´Ë¹æ¶¨²ÅÄÜ×¢²á');
 define('_US_NOREGISTER','±§Ç¸£¬Ä¿Ç°ÎÒÃÇ²»½ÓÊÕÐÂ»áÔ±');
-
-
-// %s is username. This is a subject for email
 define('_US_USERKEYFOR','%sµÄÆô¶¯ÕÊºÅ');
-
 define('_US_YOURREGISTERED','×¢²áÍê³É£¬µ«ÊÇÕÊºÅÉÐÎ´Æô¶¯£¬<br>ÏµÍ³½«·¢ËÍÒ»·Ý°üº¬Æô¶¯ÂëµÄEmail¸øÄú£¬<br>ÇëÒÀÕÕ¸ÃEmailµÄÌáÊ¾»ØÕ¾Æô¶¯ÄúµÄÕÊºÅ');
 define('_US_YOURREGMAILNG','ÄúºÃ£¬ËäÈ»ÄúÒÑÍê³É×¢²á£¬µ«ÊÇÒòÎªÏµÍ³·¢Éú¹ÊÕÏ£¬<br>ËùÒÔÎÞ·¨·¢ËÍEmail¸øÄú£¬ÇëÓë±¾Õ¾¹ÜÀíÔ±ÁªÏµ');
 define('_US_YOURREGISTERED2','×¢²áÍê³É£¬ÇëÄÍÐÄµÈ´ý±¾Õ¾·¢ËÍµÄEmailÈ·ÈÏ');
-
-// %s is your site name
 define('_US_NEWUSERREGAT','ÐÂ»áÔ±×¢²áÓÚ%s');
-// %s is a username
 define('_US_HASJUSTREG','%s¸Õ¸Õ¼ÓÈëÁËÎÒÃÇ£¡');
-
 define('_US_INVALIDMAIL','ERROR: email³ö´í');
 define('_US_EMAILNOSPACES','ERROR: EmailµØÖ·²»ÄÜÎª¿Õ');
 define('_US_INVALIDNICKNAME','ERROR: ÕÊºÅ³ö´í');
@@ -65,23 +50,13 @@ define('_US_NICKNAMETAKEN','ERROR: ÕÊºÅÒÑ¾­±»Ê¹ÓÃ');
 define('_US_EMAILTAKEN','ERROR: EmailµØÖ·ÒÑ¾­±»Ê¹ÓÃ');
 define('_US_ENTERPWD','ERROR: ÇëÌá¹©ÃÜÂë');
 define('_US_SORRYNOTFOUND','±§Ç¸£¬ÕÊºÅ»òÕßÃÜÂë´íÎó');
-
-
-
-
-// %s is your site name
 define('_US_NEWPWDREQ','ÃÜÂëÔÚ%s´¦±»¸üÐÂ');
 define('_US_YOURACCOUNT', 'ÄúÔøÔÚ%sÉêÇëÕÊºÅ');
-
 define('_US_MAILPWDNG','mailÃÜÂë:ÎÞ·¨¸üÐÂÄúµÄÐÅÏ¢£¬ÇëÓë¹ÜÀíÔ±ÁªÏµ');
-
-// %s is a username
 define('_US_PWDMAILED','¸ø%sµÄÐÂÃÜÂëÒÑÍ¨¹ýEmail·¢³ö');
 define('_US_CONFMAIL','¸ø%sµÄÈ·ÈÏÐÅÏ¢ÒÑ·¢³ö');
 define('_US_ACTVMAILNG', '¸ø%s·¢ËÍÓÊ¼þÊ§°Ü');
 define('_US_ACTVMAILOK', 'ÒÑ·¢ËÍÈ·ÈÏÐÅÏ¢¸ø%s');
-
-//%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','Ã»ÓÐÑ¡ÔñÊ¹ÓÃÕß£¬Çë»ØÉÏÒ³ÖØÊÔ');
 define('_US_PM','¸öÈËÐÅÏ¢');
 define('_US_ICQ','ICQºÅÂë');
@@ -106,8 +81,6 @@ define('_US_MYINFO','ÎÒµÄÐÅÏ¢');
 define('_US_BASICINFO','»ù±¾ÐÅÏ¢');
 define('_US_MOREABOUT','ÆäËüÐÅÏ¢');
 define('_US_SHOWALL','ÏÔÊ¾È«²¿');
-
-//%%%%%%		File Name edituser.php 		%%%%%
 define('_US_PROFILE','¸öÈË×ÊÁÏ');
 define('_US_REALNAME','ÕæÊµÐÕÃû');
 define('_US_SHOWSIG','·¢±íÎÄÕÂÊ±¼ÓÈëÇ©Ãû');
@@ -130,9 +103,7 @@ define('_US_MAXIMGSZ','×î´óÍ¼Æ¬ÎÄ¼þ³¤¶È(Bytes)');
 define('_US_SELFILE','Ñ¡ÔñÎÄ¼þ');
 define('_US_OLDDELETED','¾ÉµÄ¸öÈËÍ·Ïñ½«±»É¾³ý£¡');
 define('_US_CHOOSEAVT', '´ÓÏÂÁÐÍ·ÏñÖÐÑ¡ÔñÒ»¸ö×÷ÎªÄãµÄ¸öÈËÍ·Ïñ');
-
 define('_US_PRESSLOGIN', 'µã»÷ÒÔÏÂ°´Å¥µÇÂ¼ÏµÍ³');
-
 define('_US_ADMINNO', '²»ÄÜÉ¾³ýÕâ¸öÍøÕ¾¹ÜÀíÔ±Èº×éµÄÓÃ»§');
 define('_US_GROUPS', 'ÓÃ»§ËùÊôµÄÈº×é');
 ?>

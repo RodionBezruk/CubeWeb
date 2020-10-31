@@ -1,20 +1,4 @@
 <?php
-// Translation Info
-// $Id: user.php,v 1.1 2008/03/09 02:38:12 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// ############################################################### //
-// ## XOOPS Cube Legacy - Versão em Português
-// ############################################################### //
-// ## Por............: Mikhail Miguel
-// ## Website........: http://xoopscube.com.br
-// ## E-mail.........: mikhail@underpop.com
-// ## AOL............: mikhailmiguel
-// ## MSN............: mikhailmiguel@msn.com
-// ## Orkut..........: 15440532260129226492
-// ## Skype..........: mikhailmiguel
-// ## Yahoo!.........: mikhailmiguel@yahoo.com
-// ############################################################### //
-// *************************************************************** //
 define("_US_ACONTACT","O perfil selecionado já se encontra ativo.");
 define("_US_ACTKEYNOT","A chave de ativação não está correta.");
 define("_US_ACTLOGIN","A sua conta foi habilitada, e você já pode entrar no portal com a senha escolhida.");

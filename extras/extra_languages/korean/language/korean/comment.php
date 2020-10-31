@@ -1,36 +1,5 @@
 <?php
-// $Id: comment.php,v 1.1 2007/05/24 06:49:40 minahito Exp $
-//  ------------------------------------------------------------------------ //
-//                XOOPS - PHP Content Management System                      //
-//                    Copyright (c) 2000 XOOPS.org                           //
-//                       <http://www.xoops.org/>                             //
-//  ------------------------------------------------------------------------ //
-//  ------------------------------------------------------------------------ //
-//                XOOPS Korean (translated by wanikoo[ wani@wanisys.net ])	   //
-//                       <http://www.wanisys.net/>                             //
-//  ------------------------------------------------------------------------ //
-//  This program is free software; you can redistribute it and/or modify     //
-//  it under the terms of the GNU General Public License as published by     //
-//  the Free Software Foundation; either version 2 of the License, or        //
-//  (at your option) any later version.                                      //
-//                                                                           //
-//  You may not change or alter any portion of this comment or credits       //
-//  of supporting developers from this source code or any supporting         //
-//  source code which is considered copyrighted (c) material of the          //
-//  original comment or credit authors.                                      //
-//                                                                           //
-//  This program is distributed in the hope that it will be useful,          //
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
-//  GNU General Public License for more details.                             //
-//                                                                           //
-//  You should have received a copy of the GNU General Public License        //
-//  along with this program; if not, write to the Free Software              //
-//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
-//  ------------------------------------------------------------------------ //
-
 if (!defined('_CM_TITLE')) {
-
 define('_CM_TITLE','제목');
 define('_CM_MESSAGE','내용');
 define('_CM_DOSMILEY','얼굴아이콘을 사용');
@@ -48,7 +17,7 @@ define('_CM_PARENT','부모 코멘트');
 define('_CM_TOP','위로');
 define('_CM_BOTTOM','아래로');
 define('_CM_ONLINE','온라인');
-define('_CM_POSTED','투고일시'); // Posted date
+define('_CM_POSTED','투고일시'); 
 define('_CM_UPDATED', '갱신일시');
 define('_CM_THREAD','쓰레드');
 define('_CM_POSTER','투고자');
@@ -68,7 +37,5 @@ define('_CM_COMAPPROVEUSER','등록회원이외의 코멘트는 승인 필요!');
 define('_CM_COMAPPROVEADMIN','모든 코멘트는 반드시 승인 필요!');
 define('_CM_COMANONPOST','익명 코멘트 투고를 허용하실건가요?');
 define('_CM_COMNOCOM','코멘트 기능을 사용하지 않음');
-
 }
-
 ?>

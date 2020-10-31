@@ -1,8 +1,5 @@
 <?php
-// $Id$
-
 if (!defined('_CM_TITLE')) {
-
 define('_CM_TITLE','主题');
 define('_CM_MESSAGE','内容');
 define('_CM_DOSMILEY','开启表情符号');
@@ -20,7 +17,7 @@ define('_CM_PARENT','上级节点');
 define('_CM_TOP','页首');
 define('_CM_BOTTOM','页尾');
 define('_CM_ONLINE','<font Color=red>在线!</font>');
-define('_CM_POSTED','提交日期'); // Posted date
+define('_CM_POSTED','提交日期'); 
 define('_CM_UPDATED', '更新');
 define('_CM_THREAD','树状展开');
 define('_CM_POSTER','提交人');
@@ -40,7 +37,5 @@ define('_CM_COMAPPROVEUSER','只有注册人员才能发表评论');
 define('_CM_COMAPPROVEADMIN','所有评论必须经过管理员审核才能公开');
 define('_CM_COMANONPOST','允许匿名者发表评论吗？');
 define('_CM_COMNOCOM','关闭评论');
-
 }
-
 ?>

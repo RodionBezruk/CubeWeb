@@ -1,9 +1,4 @@
 <?php
-// *************************************************************** //
-// ** XOOPS Cube Legacy - Versão em Português
-// ** $Id: calendar.php,v 1.1 2008/03/09 02:38:12 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// *************************************************************** //
 define("_CAL_APRIL","Abril");
 define("_CAL_AUGUST","Agosto");
 define("_CAL_DECEMBER","Dezembro");

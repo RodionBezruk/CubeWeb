@@ -1,6 +1,4 @@
 <?php
-// $Id$
-//%%%%%%	File Name search.php 	%%%%%
 define("_SR_SEARCH","Поиск");
 define("_SR_PLZENTER","Пожалуйста, введите все необходимые данные!");
 define("_SR_SEARCHRESULTS","Результаты поиска");

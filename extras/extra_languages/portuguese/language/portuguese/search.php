@@ -1,20 +1,4 @@
 <?php
-// Translation Info
-// $Id: search.php,v 1.1 2008/03/09 02:38:12 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// ############################################################### //
-// ## XOOPS Cube Legacy - Versão em Português
-// ############################################################### //
-// ## Por............: Mikhail Miguel
-// ## Website........: http://xoopscube.com.br
-// ## E-mail.........: mikhail@underpop.com
-// ## AOL............: mikhailmiguel
-// ## MSN............: mikhailmiguel@msn.com
-// ## Orkut..........: 15440532260129226492
-// ## Skype..........: mikhailmiguel
-// ## Yahoo!.........: mikhailmiguel@yahoo.com
-// ############################################################### //
-// *************************************************************** //
 define("_SR_SEARCH","Pesquisar");
 define("_SR_PLZENTER","Por favor, escreva todos os campos solicitados.");
 define("_SR_SEARCHRESULTS","Resultados");

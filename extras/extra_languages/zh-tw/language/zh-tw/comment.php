@@ -1,13 +1,5 @@
 <?php
-// $Id$
-// XOOPS CUBE UTF-8 中文翻譯檔
-// 本中文翻譯檔乃直接由英文版翻譯過來,遵照GPL授權協議. 
-// 除了GPL的規範之外,沒有其它限制
-// 翻譯者：SUN (sun@meto.com.tw) http://www.meto.com.tw
-// 參考翻譯來源：OLS3 (ols3@lxer.idv.tw)
-
 if (!defined('_CM_TITLE')) {
-
 define('_CM_TITLE','標題');
 define('_CM_MESSAGE','訊息');
 define('_CM_DOSMILEY','啟用表情圖示');
@@ -25,7 +17,7 @@ define('_CM_PARENT','父評');
 define('_CM_TOP','頂端');
 define('_CM_BOTTOM','底部');
 define('_CM_ONLINE','正在線上!');
-define('_CM_POSTED','張貼日期'); // Posted date
+define('_CM_POSTED','張貼日期'); 
 define('_CM_UPDATED', '更新日期');
 define('_CM_THREAD','討論串');
 define('_CM_POSTER','張貼者');
@@ -45,7 +37,5 @@ define('_CM_COMAPPROVEUSER','註冊使用者發表的評論都接受');
 define('_CM_COMAPPROVEADMIN','所有評論都必須經過管理審核');
 define('_CM_COMANONPOST','匿名可以發表評論嗎?');
 define('_CM_COMNOCOM','取消評論');
-
 }
-
 ?>
