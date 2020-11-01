@@ -1,5 +1,4 @@
 <?php
-// $Id$
 define('_MD_LEGACY_ERROR_DBUPDATE_FAILED', "资料库更新失败");
 define('_MD_LEGACY_ERROR_EMAIL', "{0} 是无效的 email");
 define('_MD_LEGACY_ERROR_INCORRECTLOGIN', "登录错误!");
@@ -56,5 +55,4 @@ define('_MD_LEGACY_MESSAGE_INSTALL_COMPLETE_WARNING', "移除 {0} 来防止其他人窥视
 define('_MD_LEGACY_MESSAGE_LOGGEDOUT', "您现在已退出本站");
 define('_MD_LEGACY_MESSAGE_LOGIN_SUCCESS', "完成登录程序");
 define('_MD_LEGACY_MESSAGE_THANKYOUFORVISIT', "感谢来访!");
-
 ?>

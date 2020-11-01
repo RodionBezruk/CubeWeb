@@ -1,35 +1,4 @@
 <?php
-//  ------------------------------------------------------------------------ //
-//                XOOPS Cube - PHP Content Management System                      //
-//                    Copyright (c) 2006 XOOPSCube.org                           //
-//                       <http://www.xoopscube.org/>                             //
-//  ------------------------------------------------------------------------ //
-//  ------------------------------------------------------------------------ //
-//                XOOPS Cube Korean (translated by wanikoo[ wani@wanisys.net ])       //
-//                       < http://www.wanisys.net/ >                             //
-//                       < http://www.xoops.ne.kr/xoopscube/ >                             //
-//  ------------------------------------------------------------------------ //
-//  This program is free software; you can redistribute it and/or modify     //
-//  it under the terms of the GNU General Public License as published by     //
-//  the Free Software Foundation; either version 2 of the License, or        //
-//  (at your option) any later version.                                      //
-//                                                                           //
-//  You may not change or alter any portion of this comment or credits       //
-//  of supporting developers from this source code or any supporting         //
-//  source code which is considered copyrighted (c) material of the          //
-//  original comment or credit authors.                                      //
-//                                                                           //
-//  This program is distributed in the hope that it will be useful,          //
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
-//  GNU General Public License for more details.                             //
-//                                                                           //
-//  You should have received a copy of the GNU General Public License        //
-//  along with this program; if not, write to the Free Software              //
-//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
-//  ------------------------------------------------------------------------ //
-
-
 define('_MD_LEGACY_ERROR_DBUPDATE_FAILED', "데이타베이스의 갱신에 실패하였습니다.");
 define('_MD_LEGACY_ERROR_EMAIL', "{0} 는 올바르지 않은 메일주소입니다.");
 define('_MD_LEGACY_ERROR_INCORRECTLOGIN', "로그인정보가 올바르지 않습니다.");
@@ -86,5 +55,4 @@ define('_MD_LEGACY_MESSAGE_INSTALL_COMPLETE_WARNING', "서버에 {0} 디렉토리가 남�
 define('_MD_LEGACY_MESSAGE_LOGGEDOUT', "로그아웃되었습니다.");
 define('_MD_LEGACY_MESSAGE_LOGIN_SUCCESS', "{0}님 어서오세요! 로그인처리중입니다.");
 define('_MD_LEGACY_MESSAGE_THANKYOUFORVISIT', "저희 사이트를 방문해 주셔서 감사합니다.");
-
 ?>

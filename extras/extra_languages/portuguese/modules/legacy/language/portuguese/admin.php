@@ -1,15 +1,4 @@
 <?php
-// Translation Info
-// $Id: admin.php,v 1.2 2008/10/13 00:32:36 minahito Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// ############################################################### //
-// ## XOOPS Cube Legacy 2.1 - Tradução para o Português do Brasil
-// ############################################################### //
-// ## Por............: Mikhail Miguel
-// ## E-mail.........: mikhail@underpop.com
-// ## Website........: http://xoopscube.com.br
-// ############################################################### //
-// *************************************************************** //
 define("_AD_LEGACY_ERROR_ACTION_SEARCH_NORESULT","A sua pesquisa não retornou nenhum documento correspondente.");
 define("_AD_LEGACY_ERROR_ACTION_SEARCH_TRY_AGAIN","Tente de novo com outras palavra(s)-chave.");
 define("_AD_LEGACY_ERROR_BLOCK_TEMPLATE_INSTALL","Não foi possível instalar modelo do bloco {0}.");

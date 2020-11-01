@@ -1,5 +1,4 @@
 <?php
-
 define('_AD_LEGACY_ERROR_ACTION_SEARCH_NORESULT', "Aucun résultat trouvé avec vos mot-clé(s).");
 define('_AD_LEGACY_ERROR_ACTION_SEARCH_TRY_AGAIN', "Essayez avec de nouveaux termes.");
 define('_AD_LEGACY_ERROR_BLOCK_TEMPLATE_INSTALL', "Le systèeme ne peut pas installer le block template '{0}'");
@@ -52,7 +51,6 @@ define('_AD_LEGACY_LANG_ALL_MODULES', "Tous les modules");
 define('_AD_LEGACY_LANG_ALL_STATUS', "Tous les statuts");
 define('_AD_LEGACY_LANG_AUTHOR', "auteur");
 define('_AD_LEGACY_LANG_BCACHETIME', "Temps de cache");
-
 define('_AD_LEGACY_LANG_BID', "BID");
 define('_AD_LEGACY_LANG_BLOCK_EDIT', "Éditer Bloc");
 define('_AD_LEGACY_LANG_BLOCK_INSTALL', "Installer un Bloc");
@@ -360,6 +358,4 @@ define('_MD_AM_USEMYSESS', "Utiliser une session personnalisée");
 define('_MD_AM_USEMYSESSDSC', "Choisissez OUI pour personnaliser la session des valeurs liées.");
 define('_MD_AM_USESSL', "Utiliser le SSL pour se connecter ?");
 define('_MD_AM_YES', "Oui");
-
-
 ?>

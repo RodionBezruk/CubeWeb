@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_LEGACY_BLOCK_COMMENTS_DESC', "最近のコメント一覧を表示します");
 define('_MI_LEGACY_BLOCK_COMMENTS_NAME', "最近のコメント");
 define('_MI_LEGACY_BLOCK_MAINMENU_DESC', "メインメニューを表示します");
@@ -37,5 +36,4 @@ define('_MI_LEGACY_MENU_THEME_MANAGE', "テーマの管理");
 define('_MI_LEGACY_MENU_XOOPS_CONFIG', "XOOPS コンフィグ");
 define('_MI_LEGACY_NAME', "互換モジュール");
 define('_MI_LEGACY_NAME_DESC', "XOOPS Cube にXOOPS 2.0.x シリーズの互換性を与えます");
-
 ?>

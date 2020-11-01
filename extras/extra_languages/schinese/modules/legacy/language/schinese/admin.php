@@ -1,5 +1,4 @@
 <?php
-// $Id$
 define('_AD_LEGACY_ERROR_ACTION_SEARCH_NORESULT', "查无您输入的关键字。");
 define('_AD_LEGACY_ERROR_ACTION_SEARCH_TRY_AGAIN', "请使用其他关键字试看看。");
 define('_AD_LEGACY_ERROR_BLOCK_TEMPLATE_INSTALL', "无法安装区块样版： '{0}'");
@@ -356,5 +355,4 @@ define('_MD_AM_USEMYSESS', "使用定制的Session？");
 define('_MD_AM_USEMYSESSDSC', "自行设置Session的值");
 define('_MD_AM_USESSL', "使用 SSL 登入？");
 define('_MD_AM_YES', "是");
-
 ?>

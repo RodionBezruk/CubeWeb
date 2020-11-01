@@ -1,20 +1,4 @@
 <?php
-// Translation Info
-// $Id: modinfo.php,v 1.1 2008/03/09 02:32:40 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// ############################################################### //
-// ## XOOPS Cube Legacy - Versão em Português
-// ############################################################### //
-// ## Por............: Mikhail Miguel
-// ## Website........: http://xoopscube.com.br
-// ## E-mail.........: mikhail@underpop.com
-// ## AOL............: mikhailmiguel
-// ## MSN............: mikhailmiguel@msn.com
-// ## Orkut..........: 15440532260129226492
-// ## Skype..........: mikhailmiguel
-// ## Yahoo!.........: mikhailmiguel@yahoo.com
-// ############################################################### //
-// *************************************************************** //
 define("_MI_LEGACY_BLOCK_COMMENTS_DESC","Mostra os comentários mais recentes");
 define("_MI_LEGACY_BLOCK_COMMENTS_NAME","Comentários");
 define("_MI_LEGACY_BLOCK_MAINMENU_DESC","Mostra o menu principal do portal");

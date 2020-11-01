@@ -1,5 +1,4 @@
 <?php
-
 define('_AD_LEGACY_ERROR_ACTION_SEARCH_NORESULT', '您的關鍵字找不到資料');
 define('_AD_LEGACY_ERROR_ACTION_SEARCH_TRY_AGAIN', '使用其他關鍵字重試。');
 define('_AD_LEGACY_ERROR_BLOCK_TEMPLATE_INSTALL', '無法安裝區塊樣板 \'{0}\'');
@@ -360,5 +359,4 @@ define('_MD_AM_USEMYSESS', '使用自定的session');
 define('_MD_AM_USEMYSESSDSC', '選 yes 以進行自定 session 相關設定值.');
 define('_MD_AM_USESSL', '登入時使用 SSL 加密協定?');
 define('_MD_AM_YES', '是');
-
 ?>

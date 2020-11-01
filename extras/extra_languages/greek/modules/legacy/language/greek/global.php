@@ -1,12 +1,4 @@
 <?php
-// $Id$
-
-// Initial greek Translation by Yannis yannis@xoopsgreece.gr 27/11/05
-// modified by Angelos Plastropoulos 16/02/2006
-// reviewed by Angelos Plastropoulos 15/03/2006, 02/03/2006
-// reviewed by Angelos Plastropoulos (plusangel[at]xoopscube.gr) at 25/10/2006
-
-
 define('_TOKEN_ERROR', 'Alert ! This prevent you from instantiating a malformed request or post. Please, submit again to confirm!');
 define('_SYSTEM_MODULE_ERROR', 'Τα ακόλουθα modules δεν είναι εγκατεστημένα.');
 define('_INSTALL','Εγκατάσταση');
@@ -16,8 +8,6 @@ define('_SYS_MODULE_DISABLED','Απαιτείται(Απενεργοποιημέ
 define('_SYS_RECOMMENDED_MODULES','Συνιστώμενο module');
 define('_SYS_OPTION_MODULES','Προαιρετικό module');
 define('_UNINSTALL_CONFIRM','Είστε σίγουροι ότι θέλετε να απεγκαταστήσετε το module?');
-
-//%%%%%%	File Name mainfile.php 	%%%%%
 define("_PLEASEWAIT","Παρακαλώ Περιμένετε");
 define("_FETCHING","Μεταφορά δεδομένων...");
 define("_TAKINGBACK","Επιστροφή στη σελίδα που ήσασταν....");
@@ -29,7 +19,6 @@ define("_POSTANON","Ανώνυμη Αποστολή");
 define("_DISABLESMILEY","Απενεργοποιήστε των smilies");
 define("_DISABLEHTML","Απενεργοποίηση της HTML");
 define("_PREVIEW","Προεπισκόπηση");
-
 define("_GO","Go!");
 define("_NESTED","Nested");
 define("_NOCOMMENTS","Χωρίς σχόλια");
@@ -44,8 +33,6 @@ define("_WARNINSTALL2","WARNING: Directory %s exists on your server. Please remo
 define("_WARNINWRITEABLE","WARNING: File %s is writeable by the server. Please change the permission of this file for security reasons. in Unix (444), in Win32 (read-only)");
 define('_WARNPHPENV','WARNING: php.ini parameter "%s" is set to "%s". %s');
 define('_WARNSECURITY','(It may cause a security problem)');
-
-//%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Profile");
 define("_POSTEDBY","Αποστολέας");
 define("_VISITWEBSITE","Επισκευτείτε το δικτυακό τόπο");
@@ -53,30 +40,20 @@ define("_SENDPMTO","Στείλτε μήνυμα στον/στην %s");
 define("_SENDEMAILTO","Στείλτε email στον/στην %s");
 define("_ADD","Πρόσθεση");
 define("_REPLY","Απάντηση");
-define("_DATE","Ημερομηνία");   // Posted date
-
-//%%%%%%	File Name admin_functions.php 	%%%%%
+define("_DATE","Ημερομηνία");   
 define("_MAIN","Main");
 define("_MANUAL","Manual");
 define("_INFO","Info");
 define("_CPHOME","Κέντρο διαχείρισης Cube");
 define("_YOURHOME","Αρχική σελίδα ");
-
-//%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Ποιός είναι Online");
 define('_GUESTS', 'Επισκέπτες');
 define('_MEMBERS', 'Μέλη');
 define("_ONLINEPHRASE","Online μέλη: <b>%s</b>");
 define("_ONLINEPHRASEX","<b>%s</b> μέλη στην ενότητα: <b>%s</b>");
-define("_CLOSE","Κλείσιμο");  // Close window
-
-//%%%%%%	File Name module.textsanitizer.php 	%%%%%
+define("_CLOSE","Κλείσιμο");  
 define("_QUOTEC","Παράθεση:");
-
-//%%%%%%	File Name admin.php 	%%%%%
 define("_NOPERM","Συγνώμη αλλά δεν έχετε δικαίωμα πρόσβασης σε αυτή την περιοχή.");
-
-//%%%%%		Common Phrases		%%%%%
 define("_NO","Όχι");
 define("_YES","Ναι");
 define("_EDIT","Επεξεργασία");
@@ -89,9 +66,7 @@ define("_LEFT","Αριστερά");
 define("_CENTER","Κέντρο");
 define("_RIGHT","Δεξιά"); 
 define("_FORM_ENTER", "Παρακαλούμε καταχωρήστε %s");
-// %s represents file name
 define("_MUSTWABLE","Ο διακομιστής (server) πρέπει να έχει το δικαίωμα εγγραφής πάνω στο αρχείο %s!");
-// Module info
 define('_PREFERENCES', 'Ρυθμίσεις');
 define("_VERSION", "Έκδοση");
 define("_DESCRIPTION", "Περιγραφή");
@@ -118,8 +93,6 @@ define("_DESCENDING","Φθίνουσα σειρά");
 define('_BACK', 'Πίσω');
 define('_NOTITLE', 'Χωρίς Τίτλο');
 define('_RETURN_TOP', 'επιστροφή στην αρχή');
-
-/* Image manager */
 define('_IMGMANAGER','Image Manager');
 define('_NUMIMAGES', '%s εικόνες');
 define('_ADDIMAGE','Πρόσθεση αρχείου εικόνας');
@@ -136,20 +109,14 @@ define('_FAILFETCHIMG', 'Δεν είναι εφικτό να γίνει upload �
 define('_FAILSAVEIMG', 'Αποτυχία αποθήκευσης της εικόνας %s στη βάση δεδομένων');
 define('_NOCACHE', 'No Cache');
 define('_CLONE', 'Clone');
-
-//%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
 define("_STARTSWITH", "Αρχίζει με");
 define("_ENDSWITH", "Τελειώνει με");
 define("_MATCHES", "Ταιριάζει");
 define("_CONTAINS", "Περιλαμβάνει");
-
-//%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Εγγραφή");
-
-//%%%%%%	File Name xoopscodes.php 	%%%%%
-define("_SIZE","Μέγεθος");  // font size
-define("_FONT","Γραμματοσειρά");  // font family
-define("_COLOR","Χρώμα");  // font color
+define("_SIZE","Μέγεθος");  
+define("_FONT","Γραμματοσειρά");  
+define("_COLOR","Χρώμα");  
 define("_EXAMPLE","Δείγμα");
 define("_ENTERURL","Εισάγετε την URL διεύθυνση του συνδέσμου (link) που επιθυμείτε να προσθέσετε :");
 define("_ENTERWEBTITLE","Εισάγετε το τίτλο του δικτυακού τόπου:");
@@ -165,8 +132,6 @@ define("_ALLOWEDCHAR","Επιτρεπόμενο μέγιστο μήκος χαρ
 define("_CURRCHAR","Τρέχον μήκος χαρακτήρων: ");
 define("_PLZCOMPLETE","Σας παρακαλούμε να συμπληρώσετε το θέμα και το κείμενο του μηνύματος.");
 define("_MESSAGETOOLONG","Το μήνυμα σας είναι πολύ μεγάλο.");
-
-//%%%%%		TIME FORMAT SETTINGS   %%%%%
 define('_SECOND', '1 δευτερόλεπτο');
 define('_SECONDS', '%s δευτερόλεπτα');
 define('_MINUTE', '1 λεπτό');
@@ -177,52 +142,15 @@ define('_DAY', '1 μέρα');
 define('_DAYS', '%s μέρες');
 define('_WEEK', '1 εβδομάδα');
 define('_MONTH', '1 μήνας');
-
 define('_HELP', "Βοήθεια");
-
 define("_DATESTRING","j/n/y G:i");
 define("_MEDIUMDATESTRING","j/n/y G:i");
 define("_SHORTDATESTRING","j/n/y");
-/*
-The following characters are recognized in the format string:
-a - "am" or "pm"
-A - "AM" or "PM"
-d - day of the month, 2 digits with leading zeros; i.e. "01" to "31"
-D - day of the week, textual, 3 letters; i.e. "Fri"
-F - month, textual, long; i.e. "January"
-h - hour, 12-hour format; i.e. "01" to "12"
-H - hour, 24-hour format; i.e. "00" to "23"
-g - hour, 12-hour format without leading zeros; i.e. "1" to "12"
-G - hour, 24-hour format without leading zeros; i.e. "0" to "23"
-i - minutes; i.e. "00" to "59"
-j - day of the month without leading zeros; i.e. "1" to "31"
-l (lowercase 'L') - day of the week, textual, long; i.e. "Friday"
-L - boolean for whether it is a leap year; i.e. "0" or "1"
-m - month; i.e. "01" to "12"
-n - month without leading zeros; i.e. "1" to "12"
-M - month, textual, 3 letters; i.e. "Jan"
-s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
-t - number of days in the given month; i.e. "28" to "31"
-T - Timezone setting of this machine; i.e. "MDT"
-U - seconds since the epoch
-w - day of the week, numeric, i.e. "0" (Sunday) to "6" (Saturday)
-Y - year, 4 digits; i.e. "1999"
-y - year, 2 digits; i.e. "99"
-z - day of the year; i.e. "0" to "365"
-Z - timezone offset in seconds (i.e. "-43200" to "43200")
-*/
-
-
-//%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
 if (!defined('_CHARSET')) {
 	define('_CHARSET', 'UTF-8');
 }
-
 if (!defined('_LANGCODE')) {
 	define('_LANGCODE', 'el');
 }
-
-// change 0 to 1 if this language is a multi-bytes language
 define("XOOPS_USE_MULTIBYTES", "1");
 ?>

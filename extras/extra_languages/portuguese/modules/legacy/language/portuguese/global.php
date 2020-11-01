@@ -1,20 +1,4 @@
 <?php
-// Translation Info
-// $Id: global.php,v 1.1 2008/03/09 02:32:40 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// ############################################################### //
-// ## XOOPS Cube Legacy - Versão em Português
-// ############################################################### //
-// ## Por............: Mikhail Miguel
-// ## Website........: http://xoopscube.com.br
-// ## E-mail.........: mikhail@underpop.com
-// ## AOL............: mikhailmiguel
-// ## MSN............: mikhailmiguel@msn.com
-// ## Orkut..........: 15440532260129226492
-// ## Skype..........: mikhailmiguel
-// ## Yahoo!.........: mikhailmiguel@yahoo.com
-// ############################################################### //
-// *************************************************************** //
 define("_ADD","Incluir");
 define("_ADDIMAGE","Enviar imagem");
 define("_ALIGN","Alinhamento");
@@ -25,13 +9,13 @@ define("_BACK","Retornar");
 define("_CANCEL","Cancelar");
 define("_CENTER","Centro");
 define("_CLONE","Clonar");
-define("_CLOSE","Fechar"); // Close window
-define("_COLOR","Cor"); // font color
+define("_CLOSE","Fechar"); 
+define("_COLOR","Cor"); 
 define("_COMMENTS","Comentários");
 define("_CONTAINS","Contém");
 define("_CPHOME","Administração");
 define("_CURRCHAR","Número de caracteres escritos:");
-define("_DATE","Data"); // Posted date
+define("_DATE","Data"); 
 define("_DATESTRING","d/m/y H:i:s");
 define("_DAY","Um dia");
 define("_DAYS","%s dias");
@@ -57,7 +41,7 @@ define("_FAILFETCHIMG","Não foi possível enviar o arquivo %s");
 define("_FAILSAVEIMG","Não foi possível inserir a imagem %s no banco de dados");
 define("_FETCHING","Carregando...");
 define("_FLAT","Expandir");
-define("_FONT","Fonte"); // font family
+define("_FONT","Fonte"); 
 define("_FORM_ENTER","Por favor, escreva %s");
 define("_GO","Prosseguir");
 define("_GUESTS","Anônimos");
@@ -162,17 +146,11 @@ define("_WELCOMETO","Bem-vindo ao %s");
 define("_WHOSONLINE","Quem nos visita");
 define("_YES","Sim");
 define("_YOURHOME","Inicial");
-
 define("XOOPS_USE_MULTIBYTES","0");
-//%%%%% LANGUAGE SPECIFIC SETTINGS %%%%%
 @define("LEGACY_MAIL_CHAR","ISO-8859-1");
 @define("LEGACY_MAIL_ENCO","ISO-8859-1");
 @define("LEGACY_MAIL_LANG","pt");
 @define("_CHARSET","ISO-8859-1");
 @define("_LANGCODE","pt");
-
-// mb_language( 'uni' ) ;
-// mb_internal_encoding( 'iso-8859-1' ) ;
-// mb_http_output( 'iso-8859-1' ) ;
 header('Content-Type:text/html; charset='._CHARSET);
 ?>

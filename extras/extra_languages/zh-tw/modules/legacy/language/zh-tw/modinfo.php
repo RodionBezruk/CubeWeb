@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_LEGACY_BLOCK_COMMENTS_DESC', '顯示最新評論');
 define('_MI_LEGACY_BLOCK_COMMENTS_NAME', '最新評論');
 define('_MI_LEGACY_BLOCK_MAINMENU_DESC', '顯示網站的主要導覽選單');
@@ -37,5 +36,4 @@ define('_MI_LEGACY_MENU_THEME_MANAGE', '佈景管理');
 define('_MI_LEGACY_MENU_XOOPS_CONFIG', 'XOOPS 設定');
 define('_MI_LEGACY_NAME', '遺產系統');
 define('_MI_LEGACY_NAME_DESC', '這個模組提供 XOOPS Cube 與 XOOPS 2.0.x 的相容性。');
-
 ?>

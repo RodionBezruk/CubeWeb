@@ -1,20 +1,4 @@
 <?php
-// Translation Info
-// $Id: main.php,v 1.1 2008/03/09 02:32:40 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// ############################################################### //
-// ## XOOPS Cube Legacy - Versão em Português
-// ############################################################### //
-// ## Por............: Mikhail Miguel
-// ## Website........: http://xoopscube.com.br
-// ## E-mail.........: mikhail@underpop.com
-// ## AOL............: mikhailmiguel
-// ## MSN............: mikhailmiguel@msn.com
-// ## Orkut..........: 15440532260129226492
-// ## Skype..........: mikhailmiguel
-// ## Yahoo!.........: mikhailmiguel@yahoo.com
-// ############################################################### //
-// *************************************************************** //
 define("_MD_LEGACY_ERROR_DBUPDATE_FAILED","Não foi possível atualizar o banco de dados.");
 define("_MD_LEGACY_ERROR_EMAIL","{0} é um endereço inválido.");
 define("_MD_LEGACY_ERROR_INCORRECTLOGIN","Dados incorretos.");

@@ -1,5 +1,4 @@
 <?php
-
 define('_AD_LEGACY_ERROR_ACTION_SEARCH_NORESULT', "Couldn't find results with your keyword(s).");
 define('_AD_LEGACY_ERROR_ACTION_SEARCH_TRY_AGAIN', "Try again with different keyword(s).");
 define('_AD_LEGACY_ERROR_BLOCK_TEMPLATE_INSTALL', "Could not install block template '{0}'");
@@ -360,5 +359,4 @@ define('_MD_AM_USEMYSESS', "Use custom session");
 define('_MD_AM_USEMYSESSDSC', "Select yes to customise session related values.");
 define('_MD_AM_USESSL', "Use SSL for login?");
 define('_MD_AM_YES', "Yes");
-
 ?>
