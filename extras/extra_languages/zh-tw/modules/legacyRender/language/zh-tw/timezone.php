@@ -1,13 +1,4 @@
 <?php
-// $Id$
-// XOOPS zh_TW.Big5 中文翻譯檔
-// 本中文翻譯檔乃直接由英文版翻譯過來,遵照GPL授權協議. 
-// 除了GPL的規範之外,沒有其它限制
-// 翻譯者: OLS3 (ols3@lxer.idv.tw)
-// 本中文翻譯檔採中英對照(上中下英),以方便您做比對,
-// 若您覺得譯得不妥,請告知我們,以便改進.
-//
-//%%%%%		Time Zone	%%%%
 define("_TZ_GMTM12", "(GMT-12:00) Eniwetok, Kwajalein");
 define("_TZ_GMTM11", "(GMT-11:00) Midway Island, Samoa");
 define("_TZ_GMTM10", "(GMT-10:00) Hawaii");
@@ -33,7 +24,6 @@ define("_TZ_GMTP55", "(GMT+5:30) Bombay, Calcutta, Madras, New Delhi");
 define("_TZ_GMTP6", "(GMT+6:00) Almaty, Dhaka, Colombo");
 define("_TZ_GMTP7", "(GMT+7:00) Bangkok, Hanoi, Jakarta");
 define("_TZ_GMTP8", "(GMT+8:00) 台灣時區");
-//define("_TZ_GMTP8", "(GMT+8:00) Beijing, Perth, Singapore, Hong Kong, Urumqi, Taipei");
 define("_TZ_GMTP9", "(GMT+9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk");
 define("_TZ_GMTP95", "(GMT+9:30) Adelaide, Darwin");
 define("_TZ_GMTP10", "(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney, Guam,Vlasdiostok");

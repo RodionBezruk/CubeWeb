@@ -1,34 +1,4 @@
 <?php
-//  ------------------------------------------------------------------------ //
-//                XOOPS Cube - PHP Content Management System                      //
-//                    Copyright (c) 2006 XOOPSCube.org                           //
-//                       <http://www.xoopscube.org/>                             //
-//  ------------------------------------------------------------------------ //
-//  ------------------------------------------------------------------------ //
-//                XOOPS Cube Korean (translated by wanikoo[ wani@wanisys.net ])       //
-//                       < http://www.wanisys.net/ >                             //
-//                       < http://www.xoops.ne.kr/xoopscube/ >                             //
-//  ------------------------------------------------------------------------ //
-//  This program is free software; you can redistribute it and/or modify     //
-//  it under the terms of the GNU General Public License as published by     //
-//  the Free Software Foundation; either version 2 of the License, or        //
-//  (at your option) any later version.                                      //
-//                                                                           //
-//  You may not change or alter any portion of this comment or credits       //
-//  of supporting developers from this source code or any supporting         //
-//  source code which is considered copyrighted (c) material of the          //
-//  original comment or credit authors.                                      //
-//                                                                           //
-//  This program is distributed in the hope that it will be useful,          //
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
-//  GNU General Public License for more details.                             //
-//                                                                           //
-//  You should have received a copy of the GNU General Public License        //
-//  along with this program; if not, write to the Free Software              //
-//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
-//  ------------------------------------------------------------------------ //
-
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGE_FILE', "이미지파일 '{0}' 의 저장에 실패하였습니다.");
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGESET', "이미지세트 '{0}' 의 저장에 실패하였습니다.");
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_LINKTPLSET', "이미지세트의 템플릿세트 링크정보를 저장하는데 실패하였습니다.");
@@ -127,5 +97,4 @@ define('_AD_LEGACYRENDER_MESSAGE_UPLOAD_TEMPLATE_SUCCESS', "템플릿의 업로드에 성
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_1', "템플릿을 편집하고자 하신다면 먼저 디폴트 템플릿 세트의 복사본을 작성하신 후에 템플릿을 사이트에 맞게 변경하시기 바랍니다. 자세한 사항은 Help를 참조하세요!");
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_2', "사이트에 적용할 템플릿 세트를 변경하시겠습니까? 선택 버튼을 클릭하셔서 변경하시면 됩니다. 자세한 사항은 Help를 참조하세요!");
 define('_AD_LEGACYRENDER_TIPS_TPLSET_UPLOAD', "만약 템플릿세트명을 입력하지 않으시면 업로드된 파일명으로부터 템플릿세트명을 가져오게 됩니다.<br />이 시스템이 지원하는 TAR.GZ 형식의 파일로 업로드해주시기 바랍니다.");
-
 ?>

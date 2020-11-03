@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_LEGACYRENDER_ADMENU_BANNER_MANAGE', "Správa banerù");
 define('_MI_LEGACYRENDER_ADMENU_TEMPLATE_MANAGE', "Správa šablon");
 define('_MI_LEGACYRENDER_ADMENU_THEME_SETTING', "Nastavení šablon");
@@ -8,7 +7,7 @@ define('_MI_LEGACYRENDER_CONF_BANNERS', "Aktivovat reklamní baner?");
 define('_MI_LEGACYRENDER_NAME', "Pøizpùsobení");
 define('_MI_LEGACYRENDER_NAME_DESC', "This rendering engine (renderer) is compatibile with XOOPS 2.0.9 and XOOPS JP 2.0.x. You can use XOOPS2 Themes on this system.");
 define('_MI_LR_FOOTER', "Patièka");
-define('_MI_LR_FOOTER_DESC', "Be sure to type full links with the path starting from http://, otherwise the links will not work correctly in modules pages.");
+define('_MI_LR_FOOTER_DESC', "Be sure to type full links with the path starting from http:
 define('_MI_LR_META_AUTHOR', "Meta Author");
 define('_MI_LR_META_AUTHOR_DESC', "The author meta tag defines the name of the author of the document being read. Supported data formats include the name, email address of the webmaster, company name or URL.");
 define('_MI_LR_META_COPYRIGHT', "Meta Copyright");
@@ -29,5 +28,4 @@ define('_MI_LR_ROBOT_METAOMAT', "Mature");
 define('_MI_LR_ROBOT_METAOREST', "Restricted");
 define('_MI_LR_ROBOT_NOINDEXFOLLOW', "No Index, Follow");
 define('_MI_LR_ROBOT_NOINDEXNOFOLLOW', "No Index, No Follow");
-
 ?>

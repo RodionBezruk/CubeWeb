@@ -1,15 +1,4 @@
 <?php
-// Translation Info
-// $Id: modinfo.php,v 1.1 2008/03/09 02:32:40 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// ############################################################### //
-// ## XOOPS Cube Legacy 2.1 - Tradução para o Português do Brasil
-// ############################################################### //
-// ## Por............: MIKHAIL MIGUEL
-// ## E-mail.........: mikhail@underpop.com
-// ## Website........: http://xoopscube.com.br
-// ############################################################### //
-// *************************************************************** //
 define("_MI_LEGACYRENDER_ADMENU_BANNER_MANAGE","Faixas publicitárias");
 define("_MI_LEGACYRENDER_ADMENU_TEMPLATE_MANAGE","Conjuntos de modelos");
 define("_MI_LEGACYRENDER_ADMENU_THEME_SETTING","Temas");

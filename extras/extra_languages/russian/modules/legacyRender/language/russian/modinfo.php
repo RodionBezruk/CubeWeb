@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_LEGACYRENDER_ADMENU_BANNER_MANAGE', "Управление банерами");
 define('_MI_LEGACYRENDER_ADMENU_TEMPLATE_MANAGE', "Управление шаблонами");
 define('_MI_LEGACYRENDER_ADMENU_THEME_SETTING', "Настройки темы");
@@ -8,7 +7,7 @@ define('_MI_LEGACYRENDER_CONF_BANNERS', "Включить банеры?");
 define('_MI_LEGACYRENDER_NAME', "Шаблоны (Legacy)");
 define('_MI_LEGACYRENDER_NAME_DESC', "Этот рендерер совместим с XOOPS 2.0.9 и XOOPS JP 2.0.x. Вы можете использовать XOOPS2 в этой системе.");
 define('_MI_LR_FOOTER', "Подвал");
-define('_MI_LR_FOOTER_DESC', "Убедитесь, что Вы набираете ссылки в полном формате с ведущим http://, в противном случае они не будут работать на страницах модлей.");
+define('_MI_LR_FOOTER_DESC', "Убедитесь, что Вы набираете ссылки в полном формате с ведущим http:
 define('_MI_LR_META_AUTHOR', "Meta Author");
 define('_MI_LR_META_AUTHOR_DESC', "Мета тег автор определяет имя автора документа. Поддерживаемые форматы данных включают Имя, Email, адрес вебмастера, имя компании или URL.");
 define('_MI_LR_META_COPYRIGHT', "Meta Copyright");
@@ -29,5 +28,4 @@ define('_MI_LR_ROBOT_METAOMAT', "Mature");
 define('_MI_LR_ROBOT_METAOREST', "Restricted");
 define('_MI_LR_ROBOT_NOINDEXFOLLOW', "No Index, Follow");
 define('_MI_LR_ROBOT_NOINDEXNOFOLLOW', "No Index, No Follow");
-
 ?>

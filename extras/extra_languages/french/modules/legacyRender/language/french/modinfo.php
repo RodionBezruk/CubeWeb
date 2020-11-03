@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_LEGACYRENDER_ADMENU_BANNER_MANAGE', "Gestion des Bannières");
 define('_MI_LEGACYRENDER_ADMENU_TEMPLATE_MANAGE', "Gestion des Templates");
 define('_MI_LEGACYRENDER_ADMENU_THEME_SETTING', "Paramètres Theme");
@@ -8,7 +7,7 @@ define('_MI_LEGACYRENDER_CONF_BANNERS', "Activer les bannières?");
 define('_MI_LEGACYRENDER_NAME', "Legacy Renderer");
 define('_MI_LEGACYRENDER_NAME_DESC', "Ce module de rendu (renderer) est compatible avec XOOPS 2.0.9 et XOOPS JP 2.0.x. Vous pouvez utiliser vos themes favoris de XOOPS2 avec ce système.");
 define('_MI_LR_FOOTER', "Pied de page");
-define('_MI_LR_FOOTER_DESC', "Veuillez indiquer des liens complets avec http://, autrement les liens ne fonctionneront pas correctement dans les pages des modules");
+define('_MI_LR_FOOTER_DESC', "Veuillez indiquer des liens complets avec http:
 define('_MI_LR_META_AUTHOR', "Meta Auteur");
 define('_MI_LR_META_AUTHOR_DESC', "Information sur l'auteur du site web. Les formats de données possibles incluent le nom, l'adresse email du webmaster, le nom de l'entreprise ou l'URL");
 define('_MI_LR_META_COPYRIGHT', "Meta Copyright");
@@ -29,5 +28,4 @@ define('_MI_LR_ROBOT_METAOMAT', "Adulte");
 define('_MI_LR_ROBOT_METAOREST', "Limité");
 define('_MI_LR_ROBOT_NOINDEXFOLLOW', "No Index, Follow");
 define('_MI_LR_ROBOT_NOINDEXNOFOLLOW', "No Index, No Follow");
-
 ?>

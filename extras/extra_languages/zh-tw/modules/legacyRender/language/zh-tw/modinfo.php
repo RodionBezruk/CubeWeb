@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_LEGACYRENDER_ADMENU_BANNER_MANAGE', '廣告管理');
 define('_MI_LEGACYRENDER_ADMENU_TEMPLATE_MANAGE', '樣版管理');
 define('_MI_LEGACYRENDER_ADMENU_THEME_SETTING', '佈景設定');
@@ -30,5 +29,4 @@ define('_MI_LR_ROBOT_METAOMAT', '成熟');
 define('_MI_LR_ROBOT_METAOREST', '有限的');
 define('_MI_LR_ROBOT_NOINDEXFOLLOW', '沒有索引，跟隨');
 define('_MI_LR_ROBOT_NOINDEXNOFOLLOW', '沒有索引，沒有跟隨');
-
 ?>

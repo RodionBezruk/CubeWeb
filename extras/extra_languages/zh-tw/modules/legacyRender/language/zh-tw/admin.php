@@ -1,5 +1,4 @@
 <?php
-
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGE_FILE', '無法儲存圖片檔案 \'{0}\'');
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGESET', '無法儲存圖片集 \'{0}\'。');
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_LINKTPLSET', '無法儲存圖片集與樣板集之間的連結。');
@@ -98,5 +97,4 @@ define('_AD_LEGACYRENDER_MESSAGE_UPLOAD_TEMPLATE_SUCCESS', '樣板上傳成功')
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_1', '當你需要編輯該樣版時, 請先複製預設的樣版設定, 接著修改樣版以自訂您的網站. 要學習更多的細節技巧請閱讀幫助文件.');
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_2', '您要改變網站樣版設定? 請先選擇樣版設定, 並且點按 \'選擇\' 按鈕. 要學習更多的細節技巧請閱讀幫助文件.');
 define('_AD_LEGACYRENDER_TIPS_TPLSET_UPLOAD', '如果您不為新樣板集輸入一個名稱，名稱將會從上傳的檔案取得；這兒只能夠上傳 TAR.GZ 格式的檔案。');
-
 ?>

@@ -1,5 +1,4 @@
 <?php
-
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGE_FILE', "Impossible de sauvegarder le fichier image '{0}'");
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGESET', "Impossible de sauvegarder l'ensemble d'images '{0}'.");
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_LINKTPLSET', "Impossible de sauvegarder le lien d'information entre l'ensemble d'images et l'ensemble de templates.");
@@ -98,5 +97,4 @@ define('_AD_LEGACYRENDER_MESSAGE_UPLOAD_TEMPLATE_SUCCESS', "Template envoyé avec
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_1', "Personnaliser votre site en modifiant les Templates (gabarits). La première étape est de faire une copie (le clone) de l'Ensemble de Templates utilisé, et ensuite, modifier les fichiers de votre nouveau Ensemble de Templates. Pour en savoir plus, consultez l'aide. ");
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_2', "Vous pouvez changer facilement l'Ensemble de Templates de votre site en cliquant sur le bouton 'Sélectionner' approprié. Pour en savoir plus, consultez l'aide.");
 define('_AD_LEGACYRENDER_TIPS_TPLSET_UPLOAD', "Si vous n'entrez pas un nom pour votre nouveau Ensemble de Templates, le nom sera celui du dossier téléchargé. Veuillez utiliser des fichiers au format TAR.GZ ");
-
 ?>

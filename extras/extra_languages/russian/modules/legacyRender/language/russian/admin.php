@@ -1,5 +1,4 @@
 <?php
-
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGE_FILE', "Не могу сохранить файл изображения '{0}'");
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGESET', "Не могу сохранить набор изображений '{0}'.");
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_LINKTPLSET', "Не могу сохранить информацию о связи между набором картинок и набором шаблонов.");
@@ -98,5 +97,4 @@ define('_AD_LEGACYRENDER_MESSAGE_UPLOAD_TEMPLATE_SUCCESS', "Шаблон успешно загру
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_1', "Измените внешний вид своего сайта при помощи шаблонов. Сначала сделайте копию (клона) набора шаблонов по умолчанию (default), и затем измените шаблоны в этой копии. Чтобы узнать больше - обратитесь к разделу помощи.");
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_2', "Вы можете легко менять набор шаблонов своего сайта щелкнув по подходящей кнопке 'Выбрать'. Чтобы узнать больше - обратитесь к разделу помощи.");
 define('_AD_LEGACYRENDER_TIPS_TPLSET_UPLOAD', "Если Вы не введете имя для нового набора шаблонов - имя будет взято из загруженного файла. Допустимы для загрузки только файлы TAR.GZ.");
-
 ?>

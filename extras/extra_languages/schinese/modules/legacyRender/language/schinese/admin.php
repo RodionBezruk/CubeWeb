@@ -1,5 +1,4 @@
 <?php
-// $Id$
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGE_FILE', "无法储存图片文件 '{0}'");
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_IMAGESET', "无法储存图片文件组 '{0}'.");
 define('_AD_LEGACYRENDER_ERROR_COULD_NOT_SAVE_LINKTPLSET', "无法储存模板组和图形组的联结");
@@ -98,5 +97,4 @@ define('_AD_LEGACYRENDER_MESSAGE_UPLOAD_TEMPLATE_SUCCESS', "模板上传完成");
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_1', "要客制化您网站自己的模板，首先要复制一个和预设样板相同的的模板(给与和预设不同的名称)， 再修改这个复制的模板。");
 define('_AD_LEGACYRENDER_TIPS_TEMPLATE_MANAGE_2', "您可以很容易为您的网站变更您的模板，只要按下 '选择按钮' 选择适当的，要了解更多请观看协助说明。");
 define('_AD_LEGACYRENDER_TIPS_TPLSET_UPLOAD', "如果您未输入模板组名称，系统将会以上传的文件文件名为名称，上传仅限 TAR.GZ 档。");
-
 ?>
