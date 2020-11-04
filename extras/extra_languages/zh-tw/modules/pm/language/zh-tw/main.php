@@ -1,5 +1,4 @@
 <?php
-
 define('_MD_PM_ERROR_ACCESS', '存取錯誤');
 define('_MD_PM_ERROR_MAXLENGTH', '輸入 {0:toLower} {1} 或更少個字元');
 define('_MD_PM_ERROR_MESSAGE_SEND', '寄送訊息發生失敗。');
@@ -38,5 +37,4 @@ define('_MD_PM_MESSAGE_PLZREG', '寄送私人訊息前請先註冊！');
 define('_MD_PM_MESSAGE_POSTED', '您的訊息已經送出。');
 define('_MD_PM_MESSAGE_SORRY', '抱歉，您還沒註冊。');
 define('_MD_PM_MESSAGE_YOUDONTHAVE', '您沒有任何私人訊息。');
-
 ?>

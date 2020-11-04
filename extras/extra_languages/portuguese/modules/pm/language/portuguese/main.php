@@ -1,15 +1,4 @@
 <?php
-// Translation Info
-// $Id: main.php,v 1.1 2008/03/09 02:32:41 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
-// ############################################################### //
-// ## XOOPS Cube Legacy 2.1 - Tradução para o Português do Brasil
-// ############################################################### //
-// ## Por............: Mikhail Miguel
-// ## E-mail.........: mikhail@underpop.com
-// ## Website........: http://xoopscube.com.br
-// ############################################################### //
-// *************************************************************** //
 define("_MD_PM_ERROR_ACCESS","Erro de acesso");
 define("_MD_PM_ERROR_MAXLENGTH","A entrada {0} está com {1} ou menos caracteres.");
 define("_MD_PM_ERROR_MESSAGE_SEND","Lamento, não foi possível enviar a sua mensagem.");

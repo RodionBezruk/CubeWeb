@@ -1,5 +1,4 @@
 <?php
-
 define('_MD_PM_ERROR_ACCESS', "Chyba pøístupu");
 define('_MD_PM_ERROR_MAXLENGTH', "Vložte {0:toLower} s {1} nebo ménì znaky.");
 define('_MD_PM_ERROR_MESSAGE_SEND', "Zpráva nemohla být odeslána.");
@@ -38,5 +37,4 @@ define('_MD_PM_MESSAGE_PLZREG', "Pro zasílání soukromých zpráv se nejprve zaregi
 define('_MD_PM_MESSAGE_POSTED', "Vaše zpráva byla zaslána.");
 define('_MD_PM_MESSAGE_SORRY', "Promiòte! Nejste registrovaný uživatel.");
 define('_MD_PM_MESSAGE_YOUDONTHAVE', "Nemáte žádné soukromé zprávy.");
-
 ?>

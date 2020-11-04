@@ -1,5 +1,4 @@
 <?php
-// $Id$
 define('_MD_PM_ERROR_ACCESS', "读取错误");
 define('_MD_PM_ERROR_MAXLENGTH', " {0:toLower} 输入超过 {1} ，请减少字符。");
 define('_MD_PM_ERROR_MESSAGE_SEND', "信息无法传送.");
@@ -38,5 +37,4 @@ define('_MD_PM_MESSAGE_PLZREG', "要使用个人信息请先注册!");
 define('_MD_PM_MESSAGE_POSTED', "您的信息已发布.");
 define('_MD_PM_MESSAGE_SORRY', "抱歉!! 您非注册会员，不能使用此功能.");
 define('_MD_PM_MESSAGE_YOUDONTHAVE', "尚未有个人信息.");
-
 ?>

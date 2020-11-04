@@ -1,5 +1,4 @@
 <?php
-
 define('_MD_PM_ERROR_ACCESS', "Erreur d'accès");
 define('_MD_PM_ERROR_MAXLENGTH', "Valeur {0} avec {1} ou moins de charactères .");
 define('_MD_PM_ERROR_MESSAGE_SEND', "Le message n'a pas pu être envoyé.");
