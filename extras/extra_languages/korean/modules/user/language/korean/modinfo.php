@@ -1,34 +1,4 @@
 <?php
-//  ------------------------------------------------------------------------ //
-//                XOOPS Cube - PHP Content Management System                      //
-//                    Copyright (c) 2006 XOOPSCube.org                           //
-//                       <http://www.xoopscube.org/>                             //
-//  ------------------------------------------------------------------------ //
-//  ------------------------------------------------------------------------ //
-//                XOOPS Cube Korean (translated by wanikoo[ wani@wanisys.net ])       //
-//                       < http://www.wanisys.net/ >                             //
-//                       < http://www.xoops.ne.kr/xoopscube/ >                             //
-//  ------------------------------------------------------------------------ //
-//  This program is free software; you can redistribute it and/or modify     //
-//  it under the terms of the GNU General Public License as published by     //
-//  the Free Software Foundation; either version 2 of the License, or        //
-//  (at your option) any later version.                                      //
-//                                                                           //
-//  You may not change or alter any portion of this comment or credits       //
-//  of supporting developers from this source code or any supporting         //
-//  source code which is considered copyrighted (c) material of the          //
-//  original comment or credit authors.                                      //
-//                                                                           //
-//  This program is distributed in the hope that it will be useful,          //
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
-//  GNU General Public License for more details.                             //
-//                                                                           //
-//  You should have received a copy of the GNU General Public License        //
-//  along with this program; if not, write to the Free Software              //
-//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
-//  ------------------------------------------------------------------------ //
-
 define('_MI_USER_ADMENU_AVATAR_MANAGE', "아바타 관리");
 define('_MI_USER_ADMENU_GROUP_LIST', "그룹 관리");
 define('_MI_USER_ADMENU_LIST', "사용자 관리");
@@ -102,5 +72,4 @@ define('_MI_USER_MENU_CREATE_RANK', "사용자등급 신규작성");
 define('_MI_USER_MENU_CREATE_USER', "사용자 신규작성");
 define('_MI_USER_NAME', "사용자 모듈");
 define('_MI_USER_NAME_DESC', "사용자계정에 관련된 작업을 처리하기 위한 모듈입니다.");
-
 ?>

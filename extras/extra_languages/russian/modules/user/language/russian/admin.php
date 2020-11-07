@@ -1,5 +1,4 @@
 <?php
-
 define('_AD_USER_ERROR_CONTENT_IS_NOT_FOUND', "Не могу найти данные.");
 define('_AD_USER_ERROR_EMAIL', "{0} не является валидным Email адресом");
 define('_AD_USER_ERROR_GROUP_VALUE', "Указанное значение группы неверно.");
@@ -123,5 +122,4 @@ define('_AD_USER_TIPS_MAILJOB_SEND', "Если Вы выбрали очень много пользователей 
 define('_AD_USER_TIPS_RECOUNT_POSTS', "Вы можете пересчитать количество сообщений для каждого пользователя нажав на кнопку [Пересчитать].");
 define('_AD_USER_TIPS_USER_EDIT', "Если Вам необходимо сменить пароль введите 'Пароль' и 'Подтвердить пароль'.");
 define('_AD_USER_TIPS_USER_NEW', "Вы должны ввести 'Имя пользователя', 'Email адрес',  'Пароль' и 'Подтвердить пароль'.");
-
 ?>

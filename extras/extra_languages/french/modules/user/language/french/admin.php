@@ -1,5 +1,4 @@
 <?php
-
 define('_AD_USER_ERROR_CONTENT_IS_NOT_FOUND', "Impossible de retrouver les données.");
 define('_AD_USER_ERROR_EMAIL', "{0} n'est pas une adresse email valide");
 define('_AD_USER_ERROR_GROUP_VALUE', "La valeur du groupe spécifié est incorrecte.");
@@ -123,5 +122,4 @@ define('_AD_USER_TIPS_MAILJOB_SEND', "S'il y a trop d'utilisateurs pour envoyer 
 define('_AD_USER_TIPS_RECOUNT_POSTS', "Vous pouvez recompter le nombre de participations de l'utilisateur en cliquant sur le bouton 'Recompter'.");
 define('_AD_USER_TIPS_USER_EDIT', "Pour changer le mot de passe, tapez la même valeur sur les champs 'Mot de Passe' et 'Vérifier Mot de Passe'.");
 define('_AD_USER_TIPS_USER_NEW', "Indiquez un nouveau nom d'utilisateur, 'Adresse Email' , 'Mot de Passe' et 'Vérifier Mot de Passe'.");
-
 ?>

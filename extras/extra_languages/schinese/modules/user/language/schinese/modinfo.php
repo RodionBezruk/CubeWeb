@@ -1,5 +1,4 @@
 <?php
-// $Id$
 define('_MI_USER_ADMENU_AVATAR_MANAGE', "个人图像管理");
 define('_MI_USER_ADMENU_GROUP_LIST', "群组管理");
 define('_MI_USER_ADMENU_LIST', "使用者管理");
@@ -73,5 +72,4 @@ define('_MI_USER_MENU_CREATE_RANK', "建立等级");
 define('_MI_USER_MENU_CREATE_USER', "建立使用者");
 define('_MI_USER_NAME', "使用者模组");
 define('_MI_USER_NAME_DESC', "这个模组是用于使用者管理。");
-
 ?>

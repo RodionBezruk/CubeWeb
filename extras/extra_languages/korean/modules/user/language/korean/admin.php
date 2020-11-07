@@ -1,34 +1,4 @@
 <?php
-//  ------------------------------------------------------------------------ //
-//                XOOPS Cube - PHP Content Management System                      //
-//                    Copyright (c) 2006 XOOPSCube.org                           //
-//                       <http://www.xoopscube.org/>                             //
-//  ------------------------------------------------------------------------ //
-//  ------------------------------------------------------------------------ //
-//                XOOPS Cube Korean (translated by wanikoo[ wani@wanisys.net ])       //
-//                       < http://www.wanisys.net/ >                             //
-//                       < http://www.xoops.ne.kr/xoopscube/ >                             //
-//  ------------------------------------------------------------------------ //
-//  This program is free software; you can redistribute it and/or modify     //
-//  it under the terms of the GNU General Public License as published by     //
-//  the Free Software Foundation; either version 2 of the License, or        //
-//  (at your option) any later version.                                      //
-//                                                                           //
-//  You may not change or alter any portion of this comment or credits       //
-//  of supporting developers from this source code or any supporting         //
-//  source code which is considered copyrighted (c) material of the          //
-//  original comment or credit authors.                                      //
-//                                                                           //
-//  This program is distributed in the hope that it will be useful,          //
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
-//  GNU General Public License for more details.                             //
-//                                                                           //
-//  You should have received a copy of the GNU General Public License        //
-//  along with this program; if not, write to the Free Software              //
-//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
-//  ------------------------------------------------------------------------ //
-
 define('_AD_USER_ERROR_CONTENT_IS_NOT_FOUND', "데이타를 찾을 수가 없었습니다.");
 define('_AD_USER_ERROR_EMAIL', "입력하신 {0} 은 올바른 Email형식이 아닙니다.");
 define('_AD_USER_ERROR_GROUP_VALUE', "지정하신 그룹의 값이 올바르지 않습니다.");
@@ -152,5 +122,4 @@ define('_AD_USER_TIPS_MAILJOB_SEND', "송신대상 유저가 너무 많을 경우엔 서버로부�
 define('_AD_USER_TIPS_RECOUNT_POSTS', "만약 투고수가 잘못되었다고 생각되어지시면 재집계를 하실 수 있습니다.");
 define('_AD_USER_TIPS_USER_EDIT', "패스워드를 변경하고자 하실 경우에만 패스워드, 확인용 패스워드를 입력해 주세요!");
 define('_AD_USER_TIPS_USER_NEW', "사용자명, 메일주소, 패스워드, 확인용 패스워드는 반드시 입력하셔야 합니다.");
-
 ?>

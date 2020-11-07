@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_USER_ADMENU_AVATAR_MANAGE', "Avatar Management");
 define('_MI_USER_ADMENU_GROUP_LIST', "Group Management");
 define('_MI_USER_ADMENU_LIST', "User Management");
@@ -73,5 +72,4 @@ define('_MI_USER_MENU_CREATE_RANK', "user rank create new");
 define('_MI_USER_MENU_CREATE_USER', "Create user");
 define('_MI_USER_NAME', "User module");
 define('_MI_USER_NAME_DESC', "This module manages user account.");
-
 ?>

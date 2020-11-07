@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_USER_ADMENU_AVATAR_MANAGE', "アバター管理");
 define('_MI_USER_ADMENU_GROUP_LIST', "ユーザーグループ管理");
 define('_MI_USER_ADMENU_LIST', "ユーザー管理");
@@ -73,5 +72,4 @@ define('_MI_USER_MENU_CREATE_RANK', "ランクの新規作成");
 define('_MI_USER_MENU_CREATE_USER', "ユーザーの新規作成");
 define('_MI_USER_NAME', "ユーザーモジュール");
 define('_MI_USER_NAME_DESC', "ユーザーアカウントに関する処理を行う基盤モジュール");
-
 ?>

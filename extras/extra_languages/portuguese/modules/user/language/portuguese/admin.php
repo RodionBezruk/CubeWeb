@@ -1,6 +1,4 @@
 <?php
-// $Id: admin.php,v 1.1 2008/03/09 02:32:42 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
 define("_AD_USER_ERROR_CONTENT_IS_NOT_FOUND","Não foi possível encontrar os dados.");
 define("_AD_USER_ERROR_EMAIL","{0} é um endereço inválido");
 define("_AD_USER_ERROR_GROUP_VALUE","O valor atribuído ao grupo está equivocado.");

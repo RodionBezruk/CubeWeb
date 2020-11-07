@@ -1,6 +1,4 @@
 <?php
-// $Id: modinfo.php,v 1.1 2008/03/09 02:32:42 xoopserver Exp $
-// License http://creativecommons.org/licenses/by/2.5/br/
 define("_MI_USER_ADMENU_AVATAR_MANAGE","Avatares");
 define("_MI_USER_ADMENU_GROUP_LIST","Grupos e permissões");
 define("_MI_USER_ADMENU_LIST","Cadastro");

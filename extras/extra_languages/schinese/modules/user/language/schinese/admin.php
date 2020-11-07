@@ -1,5 +1,4 @@
 <?php
-// $Id$
 define('_AD_USER_ERROR_CONTENT_IS_NOT_FOUND', "查无资料");
 define('_AD_USER_ERROR_EMAIL', "{0} 为不合格式的 email");
 define('_AD_USER_ERROR_GROUP_VALUE', "群组值错误。");
@@ -123,5 +122,4 @@ define('_AD_USER_TIPS_MAILJOB_SEND', "如果您发送邮件的对象非常多的话，伺服器也许
 define('_AD_USER_TIPS_RECOUNT_POSTS', "您可以按下重新计算按钮来重计使用者的发表数");
 define('_AD_USER_TIPS_USER_EDIT', "如果您要变更密码，请将新密码填入密码栏与确认密码栏 。");
 define('_AD_USER_TIPS_USER_NEW', "您必须输入'帐号'、'Email'、'密码'及'确认密码。");
-
 ?>

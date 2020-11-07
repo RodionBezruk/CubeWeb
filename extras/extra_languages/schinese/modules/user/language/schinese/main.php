@@ -1,5 +1,4 @@
 <?php
-// $Id$
 define('_MD_USER_ERROR_AVATAR_EXTENSION', "上传文件格式未知");
 define('_MD_USER_ERROR_AVATAR_MAXFILESIZE', "超过上传的个人图像最大值");
 define('_MD_USER_ERROR_AVATAR_SELECT', "错误 - 请选择有效的个人图像");
@@ -113,5 +112,4 @@ define('_MD_USER_MESSAGE_SURETODEL', "您确定要删除您的帐号?");
 define('_MD_USER_MESSAGE_USER_DELETE_SUCCESS', "您的帐号已删除。");
 define('_MD_USER_MESSAGE_YOURREGISTERED', "您已经完成注册，系统已发出一封帐号启用信请依照信件内容指示启用您的帐号。");
 define('_MD_USER_MESSAGE_YOURREGISTERED2', "您已经完成注册， 请等待系统管理员启用您的帐号，当您帐号启用时会收到通知信，但会需要一点时间，请耐心等候。");
-
 ?>

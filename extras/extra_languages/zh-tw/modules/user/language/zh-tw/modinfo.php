@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_USER_ADMENU_AVATAR_MANAGE', '大頭貼管理');
 define('_MI_USER_ADMENU_GROUP_LIST', '群組管理');
 define('_MI_USER_ADMENU_LIST', '會員管理');
@@ -73,5 +72,4 @@ define('_MI_USER_MENU_CREATE_RANK', '建立新的會員等級');
 define('_MI_USER_MENU_CREATE_USER', '建立使用者');
 define('_MI_USER_NAME', '使用者模組');
 define('_MI_USER_NAME_DESC', '這個模組為管理使用者帳號.');
-
 ?>

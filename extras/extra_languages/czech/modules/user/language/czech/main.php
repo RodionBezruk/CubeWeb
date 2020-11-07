@@ -1,5 +1,4 @@
 <?php
-
 define('_MD_USER_ERROR_AVATAR_EXTENSION', "Uploaded file's extension does not match any entry in the allowed list.");
 define('_MD_USER_ERROR_AVATAR_MAXFILESIZE', "Uploaded file exceeds the file size limit for avatar.");
 define('_MD_USER_ERROR_AVATAR_SELECT', "CHYBA - Vyberte platnou ikonu.");
@@ -97,7 +96,7 @@ define('_MD_USER_LANG_USERCOOKIE', "Uložit uživatelské jméno v cookie po dobu 1 
 define('_MD_USER_LANG_USERKEYFOR', "User activation key for %s");
 define('_MD_USER_LANG_USERREG', "Registrace uživatele");
 define('_MD_USER_LANG_VERIFYPASS', "Heslo znovu");
-define('_MD_USER_LANG_WEBSITE', "URL vèetnì HTTP://");
+define('_MD_USER_LANG_WEBSITE', "URL vèetnì HTTP:
 define('_MD_USER_LANG_WHOSONLINE', "Kdo je online");
 define('_MD_USER_LANG_YOURACCOUNT', "Váš úèet %s");
 define('_MD_USER_LANG_YOUREMAIL', "Váš email: ");

@@ -1,5 +1,4 @@
 <?php
-
 define('_MI_USER_ADMENU_AVATAR_MANAGE', "Gestion des Avatars");
 define('_MI_USER_ADMENU_GROUP_LIST', "Gestion des Groupes");
 define('_MI_USER_ADMENU_LIST', "Gestion des Utilisateurs");
@@ -73,5 +72,4 @@ define('_MI_USER_MENU_CREATE_RANK', "Nouveau Rang");
 define('_MI_USER_MENU_CREATE_USER', "Nouveau Utilisateur");
 define('_MI_USER_NAME', "Utilisateur");
 define('_MI_USER_NAME_DESC', "Ce module gére les compes utilisateurs.");
-
 ?>

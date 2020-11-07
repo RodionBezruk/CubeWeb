@@ -1,5 +1,4 @@
 <?php
-
 define('_MD_USER_ERROR_AVATAR_EXTENSION', '所上傳的檔案格式並未符合系統所允許的檔案類型.');
 define('_MD_USER_ERROR_AVATAR_MAXFILESIZE', '上傳的大頭貼檔案超過檔案大小限制.');
 define('_MD_USER_ERROR_AVATAR_SELECT', '錯誤 - 請選擇一個有效的大頭貼圖檔.');
@@ -113,5 +112,4 @@ define('_MD_USER_MESSAGE_SURETODEL', '您確定要刪除自己的帳號？');
 define('_MD_USER_MESSAGE_USER_DELETE_SUCCESS', '您的帳號已經刪除。');
 define('_MD_USER_MESSAGE_YOURREGISTERED', '您已經完成註冊，包含帳號啟用碼的郵件已經寄送到您提供的信箱，請參考其中的說明來啟用您的帳號。');
 define('_MD_USER_MESSAGE_YOURREGISTERED2', '您已經完成註冊，請等候管理者啟用您的帳號，啟用後您會收到一封郵件通知，這也許需要一點時間，請耐心等候。');
-
 ?>
