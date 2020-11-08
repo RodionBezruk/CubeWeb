@@ -1,6 +1,6 @@
 <?php
 $modversion['name'] = _MI_LEGACY_NAME;
-$modversion['version'] = 1.06;	
+$modversion['version'] = 1.07;
 $modversion['description'] = _MI_LEGACY_NAME_DESC;
 $modversion['author'] = "";
 $modversion['credits'] = "XOOPS Cube Project";
@@ -142,7 +142,7 @@ $modversion['blocks'][5]['name'] = _MI_LEGACY_BLOCK_SITEINFO_NAME;
 $modversion['blocks'][5]['description'] = _MI_LEGACY_BLOCK_SITEINFO_DESC;
 $modversion['blocks'][5]['show_func'] = "b_legacy_siteinfo_show";
 $modversion['blocks'][5]['edit_func'] = "b_legacy_siteinfo_edit";
-$modversion['blocks'][5]['options'] = "320|190|s_poweredby.gif|1";
+$modversion['blocks'][5]['options'] = "320|190|s_poweredby.png|1";
 $modversion['blocks'][5]['template'] = 'legacy_block_siteinfo.html';
 $modversion['blocks'][5]['show_all_module'] = true;
 $modversion['blocks'][6]['func_num'] = 6;
