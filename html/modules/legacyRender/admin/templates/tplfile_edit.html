@@ -41,21 +41,8 @@
     <tr>
       <td class="head"><{$smarty.const._AD_LEGACYRENDER_LANG_TPL_SOURCE}></td>
       <td class="<{cycle values="odd,even"}>">
-      <div class="legacyRender_TemplateManager_sizenavi">
-        <{$smarty.const._AD_LEGACYRENDER_LANG_MORE_SMALL}>
-        &raquo;&raquo;
-        <a href="javascript:void(0);" onclick="return expandEditor( 'tpl_source', '480', '360' );">[480x360]</a>
-        &raquo;
-        <a href="javascript:void(0);" onclick="return expandEditor( 'tpl_source', '600', '400' );">[600x400]</a>
-        &raquo;
-        <a href="javascript:void(0);" onclick="return expandEditor( 'tpl_source', '600', '600' );">[600x600]</a>
-        &raquo;
-        <a href="javascript:void(0);" onclick="return expandEditor( 'tpl_source', '640', '700' );">[640x700]</a>
-        &raquo;&raquo;
-        <{$smarty.const._AD_LEGACYRENDER_LANG_MORE_LARGE}>
-      </div>
-        <textarea name=tpl_source id=tpl_source class="legacyRender_TemplateManager_textarea"><{$actionForm->get('tpl_source')|xoops_escape:plain}></textarea>
-      </td>
+<{fck_htmlarea name=tpl_source width=100% hight=400px skin=silver value=$actionForm->get('tpl_source')}>
+</td>
     </tr>
     <tr>
       <td class="foot" colspan="2">
