@@ -1,6 +1,6 @@
 <?php
 $modversion['name'] = _MI_STDCACHE_NAME;
-$modversion['version'] = 1.06; 
+$modversion['version'] = 1.07;
 $modversion['description'] = _MI_STDCACHE_NAME_DESC;
 $modversion['author'] = "";
 $modversion['credits'] = "XOOPS Cube Project";
