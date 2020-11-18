@@ -26,6 +26,13 @@ class User_UserSearchForm extends XCube_ActionForm
 		$this->mFormProperties['mail_condition'] =& new XCube_IntProperty('mail_condition');
 		$this->mFormProperties['user_level'] =& new XCube_IntProperty('user_level');
 		$this->mFormProperties['groups'] =& new XCube_IntArrayProperty('groups');
+		$this->mFormProperties['user_uname_match'] =& new XCube_IntProperty('user_uname_match');
+		$this->mFormProperties['user_name_match'] =& new XCube_IntProperty('user_name_match');
+		$this->mFormProperties['user_email_match'] =& new XCube_IntProperty('user_email_match');
+		$this->mFormProperties['user_icq_match'] =& new XCube_IntProperty('user_icq_match');
+		$this->mFormProperties['user_aim_match'] =& new XCube_IntProperty('user_aim_match');
+		$this->mFormProperties['user_yim_match'] =& new XCube_IntProperty('user_yim_match');
+		$this->mFormProperties['user_msnm_match'] =& new XCube_IntProperty('user_msnm_match');
 		$this->mFieldProperties['uname'] =& new XCube_FieldProperty($this);
 		$this->mFieldProperties['uname']->setDependsByArray(array('maxlength'));
 		$this->mFieldProperties['uname']->addMessage('maxlength', _MD_USER_ERROR_MAXLENGTH, _MD_USER_LANG_UNAME, '25');
