@@ -1,4 +1,5 @@
 <?php
+
 define('_MD_LEGACY_ERROR_DBUPDATE_FAILED', "Ошибка обновления БД");
 define('_MD_LEGACY_ERROR_EMAIL', "{0} неверный Email");
 define('_MD_LEGACY_ERROR_INCORRECTLOGIN', "Ошибка авторизации!");
@@ -55,4 +56,5 @@ define('_MD_LEGACY_MESSAGE_INSTALL_COMPLETE_WARNING', "Удалите каталог {0} чтобы
 define('_MD_LEGACY_MESSAGE_LOGGEDOUT', "Вы успешно разлогинились.");
 define('_MD_LEGACY_MESSAGE_LOGIN_SUCCESS', "Авторизация прошла успешно.");
 define('_MD_LEGACY_MESSAGE_THANKYOUFORVISIT', "Добро пожаловать на наш сайт!");
+
 ?>

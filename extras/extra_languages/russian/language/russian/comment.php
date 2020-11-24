@@ -1,5 +1,8 @@
 <?php
+// $Id$
+
 if (!defined('_CM_TITLE')) {
+
 define('_CM_TITLE','Загловок');
 define('_CM_MESSAGE','Сообщение');
 define('_CM_DOSMILEY','Включить смайлики');
@@ -17,7 +20,7 @@ define('_CM_PARENT','Родитель');
 define('_CM_TOP','Верх');
 define('_CM_BOTTOM','Вниз');
 define('_CM_ONLINE','На сайте!');
-define('_CM_POSTED','Дата'); 
+define('_CM_POSTED','Дата'); // Posted date
 define('_CM_UPDATED', 'Обновлен');
 define('_CM_THREAD','Тред');
 define('_CM_POSTER','Автор');
@@ -37,5 +40,7 @@ define('_CM_COMAPPROVEUSER','Комментарии зарегистрированных пользователей всегда
 define('_CM_COMAPPROVEADMIN','Все комментарии требуют одобрения администратором');
 define('_CM_COMANONPOST','Разрешить гостям отправлять комментарии?');
 define('_CM_COMNOCOM','Отключить комментарии');
+
 }
+
 ?>

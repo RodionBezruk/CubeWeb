@@ -1,4 +1,15 @@
 <?php
+// Translation Info
+// $Id: timezone.php,v 1.1 2008/03/09 02:38:12 xoopserver Exp $
+// License http://creativecommons.org/licenses/by/2.5/br/
+// ############################################################### //
+// ## XOOPS Cube Legacy 2.1 - Tradução para o Português do Brasil
+// ############################################################### //
+// ## Por............: Mikhail Miguel
+// ## E-mail.........: mikhail@underpop.com
+// ## Website........: http://xoopscube.com.br
+// ############################################################### //
+// *************************************************************** //
 define("_TZ_GMT0","(GMT) Greenwich, Londres, Dublin, Lisboa, Casablanca, Monróvia");
 define("_TZ_GMTM1","(GMT -1:00) Açores, Ilhas de Cabo Verde");
 define("_TZ_GMTM10","(GMT -10:00) Havaí");

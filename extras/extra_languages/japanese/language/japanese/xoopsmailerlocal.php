@@ -1,6 +1,38 @@
 <?php
+// $Id: xoopsmailerlocal.php,v 1.4 2008/07/05 07:45:33 minahito Exp $
+//  ------------------------------------------------------------------------ //
+//                XOOPS - PHP Content Management System                      //
+//                    Copyright (c) 2000 XOOPS.org                           //
+//                       <http://www.xoops.org/>                             //
+//  ------------------------------------------------------------------------ //
+//  This program is free software; you can redistribute it and/or modify     //
+//  it under the terms of the GNU General Public License as published by     //
+//  the Free Software Foundation; either version 2 of the License, or        //
+//  (at your option) any later version.                                      //
+//                                                                           //
+//  You may not change or alter any portion of this comment or credits       //
+//  of supporting developers from this source code or any supporting         //
+//  source code which is considered copyrighted (c) material of the          //
+//  original comment or credit authors.                                      //
+//                                                                           //
+//  This program is distributed in the hope that it will be useful,          //
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
+//  GNU General Public License for more details.                             //
+//                                                                           //
+//  You should have received a copy of the GNU General Public License        //
+//  along with this program; if not, write to the Free Software              //
+//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
+//  ------------------------------------------------------------------------ //
+// Author: NobuNobu (Nobuki@Kowa.ORG)                                        //
+// URL:  http://jp.xoops.org                                                 //
+// Project: The XOOPS Project                                                //
+// ------------------------------------------------------------------------- //
+
 if (!defined('XOOPS_ROOT_PATH')) exit();
+
 class XoopsMailerLocal extends XoopsMailer {
+
     function XoopsMailerLocal(){
         $this->multimailer = new XoopsMultiMailerLocal();
         $this->reset();
@@ -10,9 +42,11 @@ class XoopsMailerLocal extends XoopsMailer {
 				$this->multimailer->SetLanguage('ja', XOOPS_ROOT_PATH . '/class/mail/phpmailer/language/');
 				$this->multimailer->Encoding = "7bit";
     }
+
     function encodeFromName($text){
         return $this->STRtoJIS($text,_CHARSET);
     }
+
     function encodeSubject($text){
         if ($this->multimailer->needs_encode) {
             return $this->STRtoJIS($text,_CHARSET);
@@ -20,13 +54,20 @@ class XoopsMailerLocal extends XoopsMailer {
             return $text;
         }
     }
+
     function encodeBody(&$text){
         if ($this->multimailer->needs_encode) {
             $text = $this->STRtoJIS($text,_CHARSET);
         }
     }
+
+    /*-------------------------------------
+     PHP FORM MAIL 1.01 by TOMO
+     URL : http://www.spencernetwork.org/
+     E-Mail : groove@spencernetwork.org
+    --------------------------------------*/
     function STRtoJIS($str, $from_charset){
-        if (function_exists('mb_convert_encoding')) { 
+        if (function_exists('mb_convert_encoding')) { //Use mb_string extension if exists.
             $str_JIS  = mb_convert_encoding(mb_convert_kana($str,"KV", $from_charset), "JIS", $from_charset);
         } else if ($from_charset=='EUC-JP') {
             $str_JIS = '';
@@ -63,19 +104,24 @@ class XoopsMailerLocal extends XoopsMailer {
         return $str_JIS;
     }
 }
+
 class XoopsMultiMailerLocal extends XoopsMultiMailer {
+
     var $needs_encode;
+
     function XoopsMultiMailerLocal() {
         $this->XoopsMultiMailer();
+
         $this->needs_encode = true;
         if (function_exists('mb_convert_encoding')) {
             $mb_overload = ini_get('mbstring.func_overload');
-            if (($this->Mailer == 'mail') && (intval($mb_overload) & 1)) { 
+            if (($this->Mailer == 'mail') && (intval($mb_overload) & 1)) { //check if mbstring extension overloads mail()
                 $this->needs_encode = false;
                 $this->mail_overload = true;
             }
         }
     }
+
     function AddrFormat($addr) {
         if(empty($addr[1])) {
             $formatted = $addr[0];
@@ -85,9 +131,10 @@ class XoopsMultiMailerLocal extends XoopsMultiMailer {
         }
         return $formatted;
     }
+
     function EncodeHeader ($str, $position = 'text', $force=false) {
         if (!preg_match('/^4\.4\.[01]([^0-9]+|$)/',PHP_VERSION)) {
-            if (function_exists('mb_convert_encoding')) { 
+            if (function_exists('mb_convert_encoding')) { //Use mb_string extension if exists.
                 if ($this->needs_encode || $force) {
                     $encoded = mb_convert_encoding($str, _CHARSET, mb_detect_encoding($str));
                     $encoded = mb_encode_mimeheader($encoded, "ISO-2022-JP", "B", "\n");
@@ -99,13 +146,15 @@ class XoopsMultiMailerLocal extends XoopsMultiMailer {
             }
             return $encoded;
         } else {
+            //Following Logic are made for recovering PHP4.4.0 and 4.4.1 mb_encode_mimeheader() bug.
+            //TODO: If mb_encode_mimeheader() bug is fixed. Replace this to simple logic.
             $encode_charset = strtoupper($this->CharSet);
-            if (function_exists('mb_convert_encoding')) { 
+            if (function_exists('mb_convert_encoding')) { //Using mb_string extension if exists.
                 if ($this->needs_encode || $force) {
                 	$str_encoding = mb_detect_encoding($str, 'ASCII,'.$encode_charset );
-                    if ($str_encoding == 'ASCII') { 
+                    if ($str_encoding == 'ASCII') { // Return original if string from only ASCII chars.
                         return $str;
-                    } else if ($str_encoding != $encode_charset) { 
+                    } else if ($str_encoding != $encode_charset) { // Maybe this case may not occur.
                         $str = mb_convert_encoding($str, $encode_charset, $str_encoding);
                     }
                     $cut_start = 0;
@@ -116,6 +165,7 @@ class XoopsMultiMailerLocal extends XoopsMultiMailer {
                         $partstr_length = strlen($partstr);
                         if (!$partstr_length) break;
                         if ($encode_charset == 'ISO-2022-JP') { 
+                            //Should Adjust next cutting place for SO & SI char insertion.
                             if ((substr($partstr, 0, 3)===chr(27).'$B') 
                               && (substr($str, $cut_start, 3) !== chr(27).'$B')) {
                                 $partstr_length -= 3;

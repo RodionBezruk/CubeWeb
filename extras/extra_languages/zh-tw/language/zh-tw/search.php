@@ -1,4 +1,12 @@
 <?php
+// $Id$
+// XOOPS CUBE UTF-8 中文翻譯檔
+// 本中文翻譯檔乃直接由英文版翻譯過來,遵照GPL授權協議. 
+// 除了GPL的規範之外,沒有其它限制
+// 翻譯者：SUN (sun@meto.com.tw) http://www.meto.com.tw
+// 參考翻譯來源：OLS3 (ols3@lxer.idv.tw)
+
+//%%%%%%	File Name search.php 	%%%%%
 define("_SR_SEARCH","搜尋");
 define("_SR_PLZENTER","請輸入所有必要的資料!");
 define("_SR_SEARCHRESULTS","搜尋結果");

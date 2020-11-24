@@ -1,4 +1,5 @@
 <?php
+//%%%%%%	File Name search.php 	%%%%%
 define('_SR_SEARCH','検索');
 define('_SR_PLZENTER','必要なデータを全て入力してください。');
 define('_SR_SEARCHRESULTS','検索結果');

@@ -1,4 +1,5 @@
 <?php
+
 define('_MD_LEGACY_ERROR_DBUPDATE_FAILED', "Impossible de mettre à jour la base de données");
 define('_MD_LEGACY_ERROR_EMAIL', "{0} n'est pas un format d'adresse email valide!");
 define('_MD_LEGACY_ERROR_INCORRECTLOGIN', "Pseudo Invalide!");
@@ -55,4 +56,5 @@ define('_MD_LEGACY_MESSAGE_INSTALL_COMPLETE_WARNING', "Supprimez le repértoire {
 define('_MD_LEGACY_MESSAGE_LOGGEDOUT', "Vous êtes déconnecté");
 define('_MD_LEGACY_MESSAGE_LOGIN_SUCCESS', "Connexion établie!");
 define('_MD_LEGACY_MESSAGE_THANKYOUFORVISIT', "Merci de votre visite!");
+
 ?>

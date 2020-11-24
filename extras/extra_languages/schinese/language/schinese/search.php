@@ -1,4 +1,6 @@
 <?php
+// $Id$
+//%%%%%%	File Name search.php 	%%%%%
 define("_SR_SEARCH","查询");
 define("_SR_PLZENTER","请输入所有必要的数据！");
 define("_SR_SEARCHRESULTS","查询结果");

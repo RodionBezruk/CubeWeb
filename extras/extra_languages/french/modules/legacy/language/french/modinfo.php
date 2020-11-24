@@ -1,4 +1,5 @@
 <?php
+
 define('_MI_LEGACY_BLOCK_COMMENTS_DESC', "Afficher les commentaires les plus récents");
 define('_MI_LEGACY_BLOCK_COMMENTS_NAME', "Commentaires Récents");
 define('_MI_LEGACY_BLOCK_MAINMENU_DESC', "Afficher le menu de navigation principal du site");
@@ -36,4 +37,6 @@ define('_MI_LEGACY_MENU_THEME_MANAGE', "Gestion des Themes");
 define('_MI_LEGACY_MENU_XOOPS_CONFIG', "Autres Options");
 define('_MI_LEGACY_NAME', "Legacy System");
 define('_MI_LEGACY_NAME_DESC', "Ce module assure la compatibilité entre  Cube et v. 2.0.x.");
+
+
 ?>

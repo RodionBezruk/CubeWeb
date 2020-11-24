@@ -1,4 +1,6 @@
 <?php
+// $Id$
+
 define('_TOKEN_ERROR', 'Alert ! This prevent you from instantiating a malformed request or post. Please, submit again to confirm!');
 define('_SYSTEM_MODULE_ERROR', 'Following Modules are not installed.');
 define('_INSTALL', '安裝');
@@ -8,6 +10,8 @@ define('_SYS_MODULE_DISABLED', '必要（停用）');
 define('_SYS_RECOMMENDED_MODULES', '推薦的模組');
 define('_SYS_OPTION_MODULES', '其他模組');
 define('_UNINSTALL_CONFIRM', '您確定要移除系統模組？');
+
+//%%%%%%	File Name mainfile.php 	%%%%%
 define('_PLEASEWAIT', '請稍候');
 define('_FETCHING', '載入中...');
 define('_TAKINGBACK', '帶您回到先前的位置....');
@@ -19,6 +23,7 @@ define('_POSTANON', '匿名張貼');
 define('_DISABLESMILEY', '取消表情圖示');
 define('_DISABLEHTML', '取消 html 語法');
 define('_PREVIEW', '預覽觀看');
+
 define('_GO', '衝!');
 define('_NESTED', '巢狀');
 define('_NOCOMMENTS', '沒有評論');
@@ -33,6 +38,8 @@ define('_WARNINSTALL2', '警告: 目錄 %s 仍存在於您的伺服器中. <br /
 define('_WARNINWRITEABLE', '警告: 檔案 %s 在您的伺服器中可以被寫入. <br />請立即修改它的權限,以策安全.<br /> Unix 平台 (權限 444), Win32 平台 (唯讀)');
 define('_WARNPHPENV', 'WARNING: php.ini parameter "%s" is set to "%s". %s');
 define('_WARNSECURITY', '(It may cause a security problem)');
+
+//%%%%%%	File Name themeuserpost.php 	%%%%%
 define('_PROFILE', '設定資料');
 define('_POSTEDBY', '發表人');
 define('_VISITWEBSITE', '訪問站台');
@@ -40,20 +47,30 @@ define('_SENDPMTO', '傳送私人訊息給 %s');
 define('_SENDEMAILTO', '傳送電子郵件給 %s');
 define('_ADD', '新增');
 define('_REPLY', '回覆');
-define('_DATE', '日期');   
+define('_DATE', '日期');   // Posted date
+
+//%%%%%%	File Name admin_functions.php 	%%%%%
 define('_MAIN', '主要的');
 define('_MANUAL', '手冊');
 define('_INFO', '資訊');
 define('_CPHOME', '控制設定頁面');
 define('_YOURHOME', '首頁');
+
+//%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define('_WHOSONLINE', '誰在線上');
 define('_GUESTS', '訪客');
 define('_MEMBERS', '成員');
 define('_ONLINEPHRASE', '<b>%s</b> 位使用者在線上');
 define('_ONLINEPHRASEX', '<b>%s</b> 位使用者正在瀏覽 <b>%s</b>');
-define('_CLOSE', '關閉視窗');  
+define('_CLOSE', '關閉視窗');  // Close window
+
+//%%%%%%	File Name module.textsanitizer.php 	%%%%%
 define('_QUOTEC', '引言:');
+
+//%%%%%%	File Name admin.php 	%%%%%
 define('_NOPERM', '抱歉, 您沒有取用這個區域的權限.');
+
+//%%%%%		Common Phrases		%%%%%
 define('_NO', '否');
 define('_YES', '是');
 define('_EDIT', '編輯');
@@ -66,7 +83,9 @@ define('_LEFT', '靠左');
 define('_CENTER', '置中');
 define('_RIGHT', '靠右');
 define('_FORM_ENTER', '請進入 %s');
+// %s represents file name
 define('_MUSTWABLE', '檔案 %s 必須是伺服器可以寫入!');
+// Module info
 define('_PREFERENCES', '偏好設定');
 define('_VERSION', '版本');
 define('_DESCRIPTION', '說明');
@@ -93,6 +112,8 @@ define('_DESCENDING', '降冪排序');
 define('_BACK', '返回');
 define('_NOTITLE', '沒有標題');
 define('_RETURN_TOP', 'returns to the top');
+
+/* Image manager */
 define('_IMGMANAGER', '圖像管理');
 define('_NUMIMAGES', '%s 個圖像');
 define('_ADDIMAGE', '新增圖像檔');
@@ -109,14 +130,20 @@ define('_FAILFETCHIMG', '無法取得上傳的檔案 %s');
 define('_FAILSAVEIMG', '儲存圖像 %s 至資料庫中失敗');
 define('_NOCACHE', '不使用快取');
 define('_CLONE', '複本');
+
+//%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
 define('_STARTSWITH', '開始於');
 define('_ENDSWITH', '結束於');
 define('_MATCHES', '比對符合');
 define('_CONTAINS', '內含');
+
+//%%%%%%	File Name commentform.php 	%%%%%
 define('_REGISTER', '註冊');
-define('_SIZE', '大小');  
-define('_FONT', '字型');  
-define('_COLOR', '顏色');  
+
+//%%%%%%	File Name xoopscodes.php 	%%%%%
+define('_SIZE', '大小');  // font size
+define('_FONT', '字型');  // font family
+define('_COLOR', '顏色');  // font color
 define('_EXAMPLE', '樣本');
 define('_ENTERURL', '輸入您想要加入的連結位址:');
 define('_ENTERWEBTITLE', '輸入網站的標題:');
@@ -132,6 +159,8 @@ define('_ALLOWEDCHAR', '最大可允許的字元長度: ');
 define('_CURRCHAR', '目前字元長度: ');
 define('_PLZCOMPLETE', '請填完主旨及訊息欄位.');
 define('_MESSAGETOOLONG', '您的訊息太長了.');
+
+//%%%%%		TIME FORMAT SETTINGS   %%%%%
 define('_SECOND', '1 秒');
 define('_SECONDS', '%s 秒');
 define('_MINUTE', '1 分鐘');
@@ -142,15 +171,52 @@ define('_DAY', '1 日');
 define('_DAYS', '%s 日');
 define('_WEEK', '1 周');
 define('_MONTH', '1 個月');
+
 define('_HELP', '說明');
+
 define('_DATESTRING', 'Y/n/j G:i:s');
 define('_MEDIUMDATESTRING', 'Y/n/j G:i');
 define('_SHORTDATESTRING', 'Y/n/j');
+/*
+The following characters are recognized in the format string:
+a - "am" or "pm"
+A - "AM" or "PM"
+d - day of the month, 2 digits with leading zeros; i.e. "01" to "31"
+D - day of the week, textual, 3 letters; i.e. "Fri"
+F - month, textual, long; i.e. "January"
+h - hour, 12-hour format; i.e. "01" to "12"
+H - hour, 24-hour format; i.e. "00" to "23"
+g - hour, 12-hour format without leading zeros; i.e. "1" to "12"
+G - hour, 24-hour format without leading zeros; i.e. "0" to "23"
+i - minutes; i.e. "00" to "59"
+j - day of the month without leading zeros; i.e. "1" to "31"
+l (lowercase 'L') - day of the week, textual, long; i.e. "Friday"
+L - boolean for whether it is a leap year; i.e. "0" or "1"
+m - month; i.e. "01" to "12"
+n - month without leading zeros; i.e. "1" to "12"
+M - month, textual, 3 letters; i.e. "Jan"
+s - seconds; i.e. "00" to "59"
+S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+t - number of days in the given month; i.e. "28" to "31"
+T - Timezone setting of this machine; i.e. "MDT"
+U - seconds since the epoch
+w - day of the week, numeric, i.e. "0" (Sunday) to "6" (Saturday)
+Y - year, 4 digits; i.e. "1999"
+y - year, 2 digits; i.e. "99"
+z - day of the year; i.e. "0" to "365"
+Z - timezone offset in seconds (i.e. "-43200" to "43200")
+*/
+
+
+//%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
 if (!defined('_CHARSET')) {
 	define('_CHARSET', 'UTF-8');
 }
+
 if (!defined('_LANGCODE')) {
 	define('_LANGCODE', 'zh-tw');
 }
+
+// change 0 to 1 if this language is a multi-bytes language
 define('XOOPS_USE_MULTIBYTES', '1');
 ?>

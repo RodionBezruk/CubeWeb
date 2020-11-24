@@ -1,4 +1,10 @@
 <?php
+// $Id$
+//%%%%%%	File Name search.php 	%%%%%
+
+// Greek Translation by Yannis yannis@xoopsgreece.gr 27/11/05
+// reviewed by Angelos Plastropoulos (plusangel[at]xoopscube.gr) at 21/10/2006
+
 define("_SR_SEARCH","Αναζήτηση");
 define("_SR_PLZENTER","Παρακαλώ συμπληρώστε όλες τις απαραίτητες πληροφορίες!");
 define("_SR_SEARCHRESULTS","Αποτελέσματα Αναζήτησης");

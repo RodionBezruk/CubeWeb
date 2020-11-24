@@ -1,9 +1,11 @@
 <?php
+// $Id: misc.php,v 1.1 2007/05/15 02:35:07 minahito Exp $
 define('_MSC_YOURNAMEC','あなたの名前： ');
 define('_MSC_YOUREMAILC','あなたのEmail： ');
 define('_MSC_FRIENDNAMEC','友達の名前： ');
 define('_MSC_FRIENDEMAILC','友達のEmail： ');
 define('_MSC_RECOMMENDSITE','当サイトを友達に薦める');
+// %s is your site name
 define('_MSC_INTSITE','お薦めサイト： %s');
 define('_MSC_REFERENCESENT','当サイトを紹介するメールをあなたのお友達に送信しました。');
 define('_MSC_ENTERYNAME','あなたの名前を入力してください。');

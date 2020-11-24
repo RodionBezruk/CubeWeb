@@ -359,6 +359,8 @@ define('_MD_AM_USEMYSESS', "Použít uživatelskou session");
 define('_MD_AM_USEMYSESSDSC', "Zvolte ano pro pøizpùsobení hodnot souvisejících se session.");
 define('_MD_AM_USESSL', "Použít SSL pro pøihlášení?");
 define('_MD_AM_YES', "Ano");
+
+// Úprava od JardaR pro administraci blokù modulù
 define("_AM_BADMIN","Administrace blokù");
 define("_AM_TITLE","Název modulu");
 define("_AM_SIDE","Strana");

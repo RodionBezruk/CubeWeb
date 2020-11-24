@@ -1,4 +1,6 @@
 <?php
+// $Id: calendar.php,v 1.1 2007/05/15 02:35:07 minahito Exp $
+//%%%%%		Time Zone	%%%%
 define("_CAL_SUNDAY", "ÆüÍËÆü");
 define("_CAL_MONDAY", "·îÍËÆü");
 define("_CAL_TUESDAY", "²ÐÍËÆü");

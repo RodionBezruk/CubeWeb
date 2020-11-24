@@ -1,4 +1,6 @@
 <?php
+// $Id$
+//%%%%%		Time Zone	%%%%
 define("_CAL_SUNDAY", "星期日");
 define("_CAL_MONDAY", "星期一");
 define("_CAL_TUESDAY", "星期二");

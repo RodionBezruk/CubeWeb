@@ -1,4 +1,6 @@
 <?php
+// $Id$
+//%%%%%		Time Zone	%%%%
 define("_TZ_GMTM12", "(GMT-12:00) 国际换日线以西, 瓜加林岛");
 define("_TZ_GMTM11", "(GMT-11:00) 中途岛, 萨摩亚");
 define("_TZ_GMTM10", "(GMT-10:00) 夏威夷");

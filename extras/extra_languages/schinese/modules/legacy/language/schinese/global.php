@@ -1,4 +1,5 @@
 <?php
+// $Id$
 define('_TOKEN_ERROR', '警示讯息 ! 您所变更的内容与原始内容相同，请确认!');
 define('_SYSTEM_MODULE_ERROR', '以下模组未安装.');
 define('_INSTALL','安装');
@@ -8,6 +9,8 @@ define('_SYS_MODULE_DISABLED','必须安装(未启用)');
 define('_SYS_RECOMMENDED_MODULES','建议安装的模组');
 define('_SYS_OPTION_MODULES','附加模组');
 define('_UNINSTALL_CONFIRM','您确定要反安装系统模组?');
+
+//%%%%%%	File Name mainfile.php 	%%%%%
 define("_PLEASEWAIT","请稍候");
 define("_FETCHING","资料载入中...");
 define("_TAKINGBACK","系统将带您回到原来的页面....");
@@ -19,6 +22,7 @@ define("_POSTANON","匿名发表");
 define("_DISABLESMILEY","关闭表情图");
 define("_DISABLEHTML","关闭html语法");
 define("_PREVIEW","预览");
+
 define("_GO","确定");
 define("_NESTED","巢状");
 define("_NOCOMMENTS","无回应评注");
@@ -33,6 +37,8 @@ define("_WARNINSTALL2","警示讯息 ! %s 还存在于您的主机上. <br />为了安全起见请把
 define("_WARNINWRITEABLE","警示讯息 ! %s 属性为可读写. <br />为了安全起见请将它的可写属性改为不可写入。.<br /> Unix (444), Win32 (唯读)");
 define('_WARNPHPENV','警示讯息 ! php.ini 参数 "%s" 设置为"%s". %s');
 define('_WARNSECURITY','(这可能会导致安全性问题)');
+
+//%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","个人资料");
 define("_POSTEDBY","发表者");
 define("_VISITWEBSITE","拜访网站");
@@ -40,20 +46,30 @@ define("_SENDPMTO","传送私人讯息给 %s");
 define("_SENDEMAILTO","传送 Email 给 %s");
 define("_ADD","加入");
 define("_REPLY","回应");
-define("_DATE","发表日");   
+define("_DATE","发表日");   // Posted date
+
+//%%%%%%	File Name admin_functions.php 	%%%%%
 define("_MAIN","主页");
 define("_MANUAL","使用手册");
 define("_INFO","信息");
 define("_CPHOME","管理控制台首页");
 define("_YOURHOME","网站首页");
+
+//%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","线上人数");
 define('_GUESTS', '访客');
 define('_MEMBERS', '会员');
 define("_ONLINEPHRASE","线上目前共<b>%s</b>人<br>");
 define("_ONLINEPHRASEX","<b>%s</b>人在浏览<b>%s</b>");
-define("_CLOSE","关闭视窗");  
+define("_CLOSE","关闭视窗");  // Close window
+
+//%%%%%%	File Name module.textsanitizer.php 	%%%%%
 define("_QUOTEC","引文:");
+
+//%%%%%%	File Name admin.php 	%%%%%
 define("_NOPERM","抱歉!您的权限不够无法进入本区.");
+
+//%%%%%		Common Phrases		%%%%%
 define("_NO","否");
 define("_YES","是");
 define("_EDIT","编辑");
@@ -66,7 +82,9 @@ define("_LEFT","靠左");
 define("_CENTER","置中");
 define("_RIGHT","靠右");
 define("_FORM_ENTER", "请输入 %s");
+// %s represents file name
 define("_MUSTWABLE","文件 %s 必须设为可读写!");
+// Module info
 define('_PREFERENCES', '设定');
 define("_VERSION", "版本");
 define("_DESCRIPTION", "描述");
@@ -94,6 +112,8 @@ define("_DESCENDING","降幂排列");
 define('_BACK', '回上页');
 define('_NOTITLE', '无标题');
 define('_RETURN_TOP', '回页面顶端');
+
+/* Image manager */
 define('_IMGMANAGER','图片管理员');
 define('_NUMIMAGES', '%s 图片');
 define('_ADDIMAGE','新增图片');
@@ -110,14 +130,20 @@ define('_FAILFETCHIMG', '%s 无法上传');
 define('_FAILSAVEIMG', '%s 无法储存');
 define('_NOCACHE', '不使用 Cache');
 define('_CLONE', '复制');
+
+//%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
 define("_STARTSWITH", "开始于");
 define("_ENDSWITH", "结束于");
 define("_MATCHES", "符合");
 define("_CONTAINS", "相容");
+
+//%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","会员");
-define("_SIZE","大小");  
-define("_FONT","字型");  
-define("_COLOR","颜色");  
+
+//%%%%%%	File Name xoopscodes.php 	%%%%%
+define("_SIZE","大小");  // font size
+define("_FONT","字型");  // font family
+define("_COLOR","颜色");  // font color
 define("_EXAMPLE","范例");
 define("_ENTERURL","输入网址:");
 define("_ENTERWEBTITLE","输入网站名称:");
@@ -133,6 +159,8 @@ define("_ALLOWEDCHAR","字元长度限制:");
 define("_CURRCHAR","文章的字元长度: ");
 define("_PLZCOMPLETE","请确定主旨及内容是否填写");
 define("_MESSAGETOOLONG","您的文章太长，请缩小长度。");
+
+//%%%%%		TIME FORMAT SETTINGS   %%%%%
 define('_SECOND', '1 秒');
 define('_SECONDS', '%s 秒');
 define('_MINUTE', '1 分');
@@ -143,15 +171,52 @@ define('_DAY', '1 天');
 define('_DAYS', '%s 天');
 define('_WEEK', '1 周');
 define('_MONTH', '1 月');
+
 define('_HELP', "帮助说明");
+
 define("_DATESTRING","Y-m-d H:i:s");
 define("_MEDIUMDATESTRING","Y-m-d H:i");
 define("_SHORTDATESTRING","Y-m-d");
+/*
+The following characters are recognized in the format string:
+a - "am" or "pm"
+A - "AM" or "PM"
+d - day of the month, 2 digits with leading zeros; i.e. "01" to "31"
+D - day of the week, textual, 3 letters; i.e. "Fri"
+F - month, textual, long; i.e. "January"
+h - hour, 12-hour format; i.e. "01" to "12"
+H - hour, 24-hour format; i.e. "00" to "23"
+g - hour, 12-hour format without leading zeros; i.e. "1" to "12"
+G - hour, 24-hour format without leading zeros; i.e. "0" to "23"
+i - minutes; i.e. "00" to "59"
+j - day of the month without leading zeros; i.e. "1" to "31"
+l (lowercase 'L') - day of the week, textual, long; i.e. "Friday"
+L - boolean for whether it is a leap year; i.e. "0" or "1"
+m - month; i.e. "01" to "12"
+n - month without leading zeros; i.e. "1" to "12"
+M - month, textual, 3 letters; i.e. "Jan"
+s - seconds; i.e. "00" to "59"
+S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+t - number of days in the given month; i.e. "28" to "31"
+T - Timezone setting of this machine; i.e. "MDT"
+U - seconds since the epoch
+w - day of the week, numeric, i.e. "0" (Sunday) to "6" (Saturday)
+Y - year, 4 digits; i.e. "1999"
+y - year, 2 digits; i.e. "99"
+z - day of the year; i.e. "0" to "365"
+Z - timezone offset in seconds (i.e. "-43200" to "43200")
+*/
+
+
+//%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
 if (!defined('_CHARSET')) {
 	define('_CHARSET', 'GB2312');
 }
+
 if (!defined('_LANGCODE')) {
 	define('_LANGCODE', 'zh-Cn');
 }
+
+// change 0 to 1 if this language is a multi-bytes language
 define("XOOPS_USE_MULTIBYTES", "1");
 ?>

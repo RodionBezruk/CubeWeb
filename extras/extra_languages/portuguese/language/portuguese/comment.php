@@ -1,4 +1,16 @@
 <?php
+// Translation Info
+// ############################################################### //
+// ## XOOPS Cube Legacy 2.1 - Tradução para o Português do Brasil
+// ## $Id: comment.php,v 1.1 2008/03/09 02:38:12 xoopserver Exp $
+// License http://creativecommons.org/licenses/by/2.5/br/
+// ############################################################### //
+// ## Por............: Mikhail Miguel
+// ## E-mail.........: mikhail@underpop.com
+// ## Website........: http://xoopscube.com.br
+// ############################################################### //
+// *************************************************************** //
+
 if (!defined("_CM_TITLE")) {
 define("_CM_TITLE", "Título");
 define("_CM_MESSAGE", "Comentário");
@@ -17,7 +29,7 @@ define("_CM_PARENT", "Anterior");
 define("_CM_TOP", "Topo");
 define("_CM_BOTTOM", "Último");
 define("_CM_ONLINE", "Presente.");
-define("_CM_POSTED", "Publicado"); 
+define("_CM_POSTED", "Publicado"); // Posted date
 define("_CM_UPDATED", "Atualizado");
 define("_CM_THREAD", "Ramificado");
 define("_CM_POSTER", "Por");

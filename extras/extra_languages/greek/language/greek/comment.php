@@ -1,5 +1,11 @@
 <?php
+// $Id$
+
+// Greek Translation by Yannis yannis@xoopsgreece.gr 27/11/05
+// reviewed by Angelos Plastropoulos (plusangel[at]xoopscube.gr) at 20/10/2006
+
 if (!defined('_CM_TITLE')) {
+
 define('_CM_TITLE','Τίτλος');
 define('_CM_MESSAGE','Μήνυμα');
 define('_CM_DOSMILEY','Ενεργοποιημένα Smilies');
@@ -17,7 +23,7 @@ define('_CM_PARENT','Parent');
 define('_CM_TOP','Κορυφή');
 define('_CM_BOTTOM','Τέλος σελίδας');
 define('_CM_ONLINE','Σε σύνδεση!');
-define('_CM_POSTED','Ημερομηνία αποστολής'); 
+define('_CM_POSTED','Ημερομηνία αποστολής'); // Posted date
 define('_CM_UPDATED', 'Ενημερώθηκε');
 define('_CM_THREAD','Thread');
 define('_CM_POSTER','Αποστολέας');
@@ -30,12 +36,14 @@ define('_CM_DELETESELECT' , 'Να διαγραφούν όλα τα σχόλια 
 define('_CM_DELETEONE' , 'Όχι, να διαγραφεί μόνο αυτό το σχόλιο. ');
 define('_CM_DELETEALL', 'Ναι, να διαγραφούν όλα. ');
 define('_CM_THANKSPOST', 'Ευχαριστούμε για την καταχώρηση!');
-define('_CM_NOTICE', "Όλες οι δημοσιεύσεις σε αυτές τις ιστοσελίδες εκφράζουν τις απόψεις και τη γνώμη των συντακτών τους και όχι μόνο των διαχειριστών ή συντονιστών (εκτός των δημοσιεύσεων των ιδίων) και ως εκ τούτου δεν είναι υπεύθυνοι για αυτές."); 
+define('_CM_NOTICE', "Όλες οι δημοσιεύσεις σε αυτές τις ιστοσελίδες εκφράζουν τις απόψεις και τη γνώμη των συντακτών τους και όχι μόνο των διαχειριστών ή συντονιστών (εκτός των δημοσιεύσεων των ιδίων) και ως εκ τούτου δεν είναι υπεύθυνοι για αυτές."); //Τα σχόλια ανήκουν στον εκάστοτε χρήστη. Δεν φέρουμε καμμία ευθύνη για το περιεχόμενό τους.");
 define('_CM_COMRULES','Κανόνες σχολίων');
 define('_CM_COMAPPROVEALL','Τα σχόλια γίνονται αυτόματα αποδεκτά');
 define('_CM_COMAPPROVEUSER','Τα σχόλια που προέρχονται από τα μέλη είναι πάντα εγκεκριμένα.');
 define('_CM_COMAPPROVEADMIN','Όλα τα σχόλια πρέπει να εγκριθούν από τους διαχειριστές.');
 define('_CM_COMANONPOST','Να επιτραπεί στους απλούς επισκέπτες (anonymous users) να υποβάλουν σχόλια?');
 define('_CM_COMNOCOM','Απενεργοποιήστε τα σχόλια');
+
 }
+
 ?>

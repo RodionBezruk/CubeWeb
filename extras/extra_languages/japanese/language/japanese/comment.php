@@ -1,5 +1,8 @@
 <?php
+// $Id: comment.php,v 1.1 2007/05/15 02:35:08 minahito Exp $
+
 if (!defined('_CM_TITLE')) {
+
 define('_CM_TITLE','表題');
 define('_CM_MESSAGE','コメント');
 define('_CM_DOSMILEY','顔アイコンを有効にする');
@@ -17,7 +20,7 @@ define('_CM_PARENT','親コメント');
 define('_CM_TOP','上へ');
 define('_CM_BOTTOM','下へ');
 define('_CM_ONLINE','オンライン');
-define('_CM_POSTED','投稿日時'); 
+define('_CM_POSTED','投稿日時'); // Posted date
 define('_CM_UPDATED', '更新日時');
 define('_CM_THREAD','スレッド');
 define('_CM_POSTER','投稿者');
@@ -37,5 +40,7 @@ define('_CM_COMAPPROVEUSER','登録ユーザ以外のコメントは承認が必要');
 define('_CM_COMAPPROVEADMIN','コメントは全て承認が必要');
 define('_CM_COMANONPOST','匿名によるコメント投稿を許可しますか？');
 define('_CM_COMNOCOM','コメント機能を無効にする');
+
 }
+
 ?>

@@ -1,4 +1,6 @@
 <?php
+// $Id: timezone.php,v 1.1 2007/05/15 02:35:07 minahito Exp $
+//%%%%%		Time Zone	%%%%
 define('_TZ_GMTM12', '(GMT-12:00) エニウェトク、クエジェリン');
 define('_TZ_GMTM11', '(GMT-11:00) ミッドウェー島、サモア');
 define('_TZ_GMTM10', '(GMT-10:00) ハワイ');

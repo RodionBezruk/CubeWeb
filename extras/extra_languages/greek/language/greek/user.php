@@ -1,4 +1,12 @@
 <?php
+// $Id$
+//%%%%%%		File Name user.php 		%%%%%
+
+// Greek Translation by Yannis yannis@xoopsgreece.gr 27/11/05
+// reviewed by Angelos Plastropoulos (plusangel[at]xoopscube.gr) at 21/10/2006
+
+
+
 define('_US_NOTREGISTERED','Δεν είστε μέλη; Κάντε κλίκ <a href="register.php">ΕΔΩ</a>');
 define('_US_LOSTPASSWORD','Ξεχάσατε τον Κωδικό;');
 define('_US_NOPROBLEM','Κανένα Πρόβλημα. Απλά πληκτρολογήστε το email που χρησιμοποιήσατε κατά την εγγραφή σας.');
@@ -8,6 +16,8 @@ define('_US_LOGGEDOUT','Έχετε αποσυνδεθεί');
 define('_US_THANKYOUFORVISIT','Ευχαριστούμε που επισκεφτήκατε το δικτυακό μας τόπο !');
 define('_US_INCORRECTLOGIN','Λάθος Στοιχεία!');
 define('_US_LOGGINGU','%s, καλώς ορίσατε.');
+
+// 2001-11-17 ADD
 define('_US_NOACTTPADM','Ο συγκεκριμένος λογαριασμός έχει απενεργοποιηθεί ή δεν έχει ενεργοποιηθεί ακόμη.<br />Παρακαλούμε επικοινωνήστε με τους Διαχειριστές για περισσότερες πληροφορίες.');
 define('_US_ACTKEYNOT','Το κλειδί ενεργοποίσης δεν είναι έγκυρο!');
 define('_US_ACONTACT','Ο λογαριασμός που επιλέξατε είναι ήδη ενεργοποιημένος!');
@@ -16,6 +26,9 @@ define('_US_NOPERMISS','Συγγνώμη, δεν έχετε τα απαραίτ�
 define('_US_SURETODEL','Είστε σίγουροι ότι θέλετε να διαγράψετε τον λογαριασμό σας;');
 define('_US_REMOVEINFO','Αυτό θα διαγράψει όλες τις πληροφορίες του λογαριασμού σας από τη βάση δεδομένων.');
 define('_US_BEENDELED','Ο λογαριασμός σας έχει διαγραφεί.');
+//
+
+//%%%%%%		File Name register.php 		%%%%%
 define('_US_USERREG','Εγγραφή Χρήστη');
 define('_US_NICKNAME','Ψευδώνυμο');
 define('_US_REALNAME', 'Πραγματικό όνομα');
@@ -34,12 +47,19 @@ define('_US_DISCLAIMER','Δήλωση Αποποίησης Ευθύνης');
 define('_US_IAGREE','Συμφωνώ με τα ανωτέρω');
 define('_US_UNEEDAGREE', 'Θα πρέπει να συμφωνήσετε με τη Δήλωση Αποποίησης Ευθύνης για να εγγραφείτε.');
 define('_US_NOREGISTER','Λυπούμεθα αλλά προσωρινά δεν γίνονται εγγραφές');
+
+// %s is username. This is a subject for email
 define('_US_USERKEYFOR','Κλειδί ενεργοποίησης για το μέλος %s');
+
 define('_US_YOURREGISTERED','Ένα μήνυμα έχει αποσταλεί στην Ηλεκτρονική Δ/νση που έχετε δηλώσει στον λογαριασμό σας. Παρακαλούμε ακολουθήστε τις οδηγίες του μηνύματος για να ενεργοποιήσετε τον λογαριασμό σας. ');
 define('_US_YOURREGMAILNG','Εχετε ήδη εγγραφεί. Εν τούτοις, δεν ήταν δυνατό να σας στείλουμε το μήνυμα ενεργοποίησης στην Ηλεκτρονική Δ/νση του λογαριασμού σας λόγω ενός εσωτερικού σφάλματος που συνέβει στον server μας. Λυπούμεθα για την ταλαιπωρία. Παρακαλούμε να στείλετε στον Διαχειριστή ένα Ηλ. Μήνυμα (Email) για να τον ειδοποιήσετε για το πρόβλημα.');
 define('_US_YOURREGISTERED2','Εχετε ήδη εγγραφεί. Παρακαλούμε να περιμένετε μέχρι την ενεργοποίηση του λογαριασμού σας από τους Διαχειριστές. Θα λάβετε ένα Ηλ. Μήνυμα με την ενεργοποίηση. Κάντε λίγη υπομονή γιατί αυτό μπορεί να καθυστερήσει λίγο.');
+
+// %s is your site name
 define('_US_NEWUSERREGAT','Εγγραφή νέου μέλους στο %s');
+// %s is a username
 define('_US_HASJUSTREG','Μόλις γράφτηκε Ο/Η %s !');
+
 define('_US_INVALIDMAIL','ΣΦΑΛΜΑ: Μη έγγυρo email');
 define('_US_EMAILNOSPACES','ΣΦΑΛΜΑ: Τα email δεν πρέπει να περιέχουν κενά.');
 define('_US_INVALIDNICKNAME','ΣΦΑΛΜΑ: Μη έγγυρο Ψευδώνυμο');
@@ -51,13 +71,20 @@ define('_US_NICKNAMETAKEN','ΣΦΑΛΜΑ: Το Ψευδώνυμο έχει ήδ�
 define('_US_EMAILTAKEN','ΣΦΑΛΜΑ: To email έχει ήδη δεσμευτεί.');
 define('_US_ENTERPWD','ΣΦΑΛΜΑ: Πρέπει να δώσετε ένα Κωδικό.');
 define('_US_SORRYNOTFOUND','Λυπούμεθα, δεν βρέθηκε αντίστοιχος Χρήστης.');
+
+
+// %s is your site name
 define('_US_NEWPWDREQ','Αίτηση για νέο κωδικό πρόσβασης στο %s');
 define('_US_YOURACCOUNT', 'Ο Λογαριασμός σας στο %s');
+
 define('_US_MAILPWDNG','αποστολή κωδικού: δεν μπορώ να κάνω update στα δεδομένα του μέλους. Συμβουλευτείτε  το διαχειριστή του δικτυακού τόπου.');
+// %s is a username
 define('_US_PWDMAILED','Ο κωδικός πρόσβασης για το %s έχει αποσταλεί.');
 define('_US_CONFMAIL','Το email επιβεβαίωσης για τον %s έχει αποσταλεί.');
 define('_US_ACTVMAILNG', 'Σφάλμα αποστολής μηνύματος ειδοποίησης στον %s');
 define('_US_ACTVMAILOK', 'Εστάλη μήνυμα ειδοποίησης στον %s.');
+
+//%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','Δεν επιλέχθηκε μέλος. Παρακαλούμε επιστρέψτε και δοκιμάστε πάλι.');
 define('_US_PM','PM');
 define('_US_ICQ','ICQ');
@@ -82,6 +109,8 @@ define('_US_MYINFO','Τα στοιχεία μου');
 define('_US_BASICINFO','Βασικές Πληροφορίες');
 define('_US_MOREABOUT','Περισσότερα για εμένα');
 define('_US_SHOWALL','Εμφάνιση όλων');
+
+//%%%%%%		File Name edituser.php 		%%%%%
 define('_US_PROFILE','Προφίλ');
 define('_US_DISPLAYNAME','Εμφανιζόμενο Όνομα');
 define('_US_SHOWSIG','Να επισυνάπτεται πάντα η Υπογραφή');
@@ -104,7 +133,9 @@ define('_US_MAXIMGSZ','Μέγιστο μέγεθος avatar (σε bytes)');
 define('_US_SELFILE','Επιλέξτε αρχείο');
 define('_US_OLDDELETED','Το παλιό avatar σας θα διαγραφεί!');
 define('_US_CHOOSEAVT', 'Επιλέξτε ένα avatar από τη λίστα');
+
 define('_US_PRESSLOGIN', 'Πιέστε το παρακάτω κουμπί για την εισαγωγή');
+
 define('_US_ADMINNO', 'Τα μέλη που ανήκουν στην ομάδα των Διαχειριστών δεν μπορούν να διαγραφούν.');
 define('_US_GROUPS', 'Ομάδες μελών');
 ?>
