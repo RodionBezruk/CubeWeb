@@ -6,30 +6,13 @@ class Legacy_BlockListForm extends XCube_ActionForm
 {
 	function getTokenName()
 	{
-		if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-			return "module.legacy.BlockListForm.TOKEN";
-		}
-		else {
-			return null;
-		}
-	}
-	function getTokenErrorMessage()
-	{
-		return null;
+		return "module.legacy.BlockListForm.TOKEN";
 	}
 	function prepare()
 	{
-		$this->mFormProperties['title'] =& new XCube_StringArrayProperty('title');
 		$this->mFormProperties['weight'] =& new XCube_IntArrayProperty('weight');
 		$this->mFormProperties['side'] =& new XCube_IntArrayProperty('side');
 		$this->mFormProperties['bcachetime'] =& new XCube_IntArrayProperty('bcachetime');
-		$this->mFormProperties['uninstall']=& new XCube_BoolArrayProperty('uninstall');
-		$this->mFormProperties['confirm'] =& new XCube_BoolProperty('confirm');
-		$this->mFieldProperties['title'] =& new XCube_FieldProperty($this);
-		$this->mFieldProperties['title']->setDependsByArray(array('required','maxlength'));
-		$this->mFieldProperties['title']->addMessage('required', _MD_LEGACY_ERROR_REQUIRED, _AD_LEGACY_LANG_TITLE, '255');
-		$this->mFieldProperties['title']->addMessage('maxlength', _MD_LEGACY_ERROR_MAXLENGTH, _AD_LEGACY_LANG_TITLE, '255');
-		$this->mFieldProperties['title']->addVar('maxlength', '255');
 		$this->mFieldProperties['weight'] =& new XCube_FieldProperty($this);
 		$this->mFieldProperties['weight']->setDependsByArray(array('required','intRange'));
 		$this->mFieldProperties['weight']->addMessage('required', _MD_LEGACY_ERROR_REQUIRED, _AD_LEGACY_LANG_WEIGHT);

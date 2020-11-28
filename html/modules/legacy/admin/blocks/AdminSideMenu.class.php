@@ -24,7 +24,6 @@ class Legacy_AdminSideMenu extends Legacy_AbstractBlockProcedure
 	{
 		$root =& XCube_Root::getSingleton();
 		$root->mLanguageManager->loadModuleAdminMessageCatalog('legacy'); 
-		$root->mLanguageManager->loadModinfoMessageCatalog('legacy');
 		$controller =& $root->mController;
 		$user =& $root->mController->mRoot->mContext->mXoopsUser;
 		$render =& $this->getRenderTarget();
@@ -60,14 +59,6 @@ class Legacy_AdminSideMenu extends Legacy_AbstractBlockProcedure
 			$this->mModules[] =& $module;
 			unset($module);
 		}
-		$tpl = $db->prefix("tplfile");
-		$tpl_modules = array();
-		$sql = "SELECT DISTINCT tpl_module FROM ${tpl}";
-		$result = $db->query($sql);
-		while($row = $db->fetchArray($result)) {
-			$tpl_modules[] = $row['tpl_module'];
-		}
-		$render->setAttribute('tplmodules', $tpl_modules);
 		$render->setTemplateName('legacy_admin_block_sidemenu.html');
 		$render->setAttribute('modules', $this->mModules);
 		$render->setAttribute('currentModule', $this->mCurrentModule);

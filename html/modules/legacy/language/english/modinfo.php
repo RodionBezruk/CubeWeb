@@ -1,4 +1,5 @@
 <?php
+
 define('_MI_LEGACY_BLOCK_COMMENTS_DESC', "Shows most recent comments");
 define('_MI_LEGACY_BLOCK_COMMENTS_NAME', "Recent Comments");
 define('_MI_LEGACY_BLOCK_MAINMENU_DESC', "Shows the main navigation menu of the site");
@@ -36,4 +37,5 @@ define('_MI_LEGACY_MENU_THEME_MANAGE', "Theme Management");
 define('_MI_LEGACY_MENU_XOOPS_CONFIG', "XOOPS Config");
 define('_MI_LEGACY_NAME', "Legacy System");
 define('_MI_LEGACY_NAME_DESC', "This module provides compatibility between XOOPS Cube and XOOPS 2.0.x.");
+
 ?>
