@@ -1,6 +1,15 @@
 <?php
 if (!defined('XCUBE_CORE_PATH')) define('XCUBE_CORE_PATH', dirname(__FILE__));
 require_once XCUBE_CORE_PATH . '/XCube_HttpContext.class.php';
+function XC_CLASS_EXISTS($className)
+{
+	if (version_compare(PHP_VERSION, "5.0", ">=")) {
+		return class_exists($className, false);
+	}
+	else {
+		return class_exists($className);
+	}
+}
 class XCube_Root
 {
 	var $mController = null;
@@ -197,7 +206,7 @@ class XCube_Root
 				require_once $root . $classPath . "/" . $className . ".class.php";
 			}
 		}
-		if (class_exists($className)) {
+		if (XC_CLASS_EXISTS($className)) {
 			$ret =& new $className();
 		}
 		return $ret;
