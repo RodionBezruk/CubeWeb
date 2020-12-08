@@ -43,7 +43,7 @@ class Pm_ActionFrame
 			die();
 		}
 		require_once $fileName;
-		if (class_exists($className)) {
+		if (XC_CLASS_EXISTS($className)) {
 			$this->mAction =& new $className();
 		}
 		if (!is_object($this->mAction)) {

@@ -1,5 +1,5 @@
 <?php
-if (!class_exists('XCube_AbstractServiceClient')) exit();
+if (!XC_CLASS_EXISTS('XCube_AbstractServiceClient')) exit();
 class ShadePlus_SoapClient extends XCube_AbstractServiceClient
 {
 	var $mClient = null;

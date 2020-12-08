@@ -2095,7 +2095,7 @@ class soap_server extends nusoap_base {
 			$delim = '';
 		}
 		if (strlen($delim) > 0 && substr_count($this->methodname, $delim) == 1 &&
-			class_exists(substr($this->methodname, 0, strpos($this->methodname, $delim)))) {
+			XC_CLASS_EXISTS(substr($this->methodname, 0, strpos($this->methodname, $delim)))) {
 			$class = substr($this->methodname, 0, strpos($this->methodname, $delim));
 			$method = substr($this->methodname, strpos($this->methodname, $delim) + strlen($delim));
 			$this->debug("in invoke_method, class=$class method=$method delim=$delim");

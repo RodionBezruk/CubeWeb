@@ -324,7 +324,7 @@ class Legacy_Controller extends XCube_Controller
 		$this->mCreateLanguageManager->call(new XCube_Ref($languageManager), $language);
 		if (!is_object($languageManager)) {
 			$className = "Legacy_LanguageManager_" . ucfirst(strtolower($language));
-			if (class_exists($className)) {
+			if (XC_CLASS_EXISTS($className)) {
 				$languageManager =& new $className();
 			}
 			else {
@@ -332,7 +332,7 @@ class Legacy_Controller extends XCube_Controller
 				if (file_exists($filePath)) {
 					require_once $filePath;
 				}
-				if (class_exists($className)) {
+				if (XC_CLASS_EXISTS($className)) {
 					$languageManager =& new $className();
 				}
 				else {
@@ -390,7 +390,7 @@ class Legacy_Controller extends XCube_Controller
 							require_once $file;
 							if (preg_match("/(\w+)\.class\.php/", $file, $matches)) {
 								$className = ucfirst($mod_dir) . "_" . $matches[1];
-								if (class_exists($className) && !isset($this->_mLoadedFilterNames[$className])) {
+								if (XC_CLASS_EXISTS($className) && !isset($this->_mLoadedFilterNames[$className])) {
 									$this->_mLoadedFilterNames[$className] = true;
 									$instance =& new $className($this);
 									$this->addActionFilter($instance);
@@ -734,7 +734,7 @@ class Legacy_AbstractControllerStrategy
 		foreach ($primaryPreloads as $className => $classPath) {
 			if (file_exists(XOOPS_ROOT_PATH . $classPath)) {
 				require_once XOOPS_ROOT_PATH . $classPath;
-				if (class_exists($className) && !isset($this->_mLoadedFilterNames[$className])) {
+				if (XC_CLASS_EXISTS($className) && !isset($this->_mLoadedFilterNames[$className])) {
 					$this->_mLoadedFilterNames[$className] = true;
 					$filter =& new $className($this->mController);
 					$this->mController->addActionFilter($filter);

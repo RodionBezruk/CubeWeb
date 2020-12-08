@@ -67,10 +67,10 @@ class Legacy_ModuleInstallUtils
 			if ($namespace != null) {
 				$className = "${namespace}_${className}";
 			}
-			if (!class_exists($className) && file_exists($filePath)) {
+			if (!XC_CLASS_EXISTS($className) && file_exists($filePath)) {
 				require_once $filePath;
 			}
-			if (class_exists($className)) {
+			if (XC_CLASS_EXISTS($className)) {
 				$installer =& new $className();
 				return $installer;
 			}

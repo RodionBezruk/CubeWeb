@@ -1,5 +1,5 @@
 <?php
-if (!class_exists('soap_server')) exit();
+if (!XC_CLASS_EXISTS('soap_server')) exit();
 class ShadeSoap_NusoapServer extends soap_server
 {
 	function invoke_method() {
@@ -30,7 +30,7 @@ class ShadeSoap_NusoapServer extends soap_server
 			$delim = '';
 		}
 		if (strlen($delim) > 0 && substr_count($this->methodname, $delim) == 1 &&
-			class_exists(substr($this->methodname, 0, strpos($this->methodname, $delim)))) {
+			XC_CLASS_EXISTS(substr($this->methodname, 0, strpos($this->methodname, $delim)))) {
 			$class = substr($this->methodname, 0, strpos($this->methodname, $delim));
 			$method = substr($this->methodname, strpos($this->methodname, $delim) + strlen($delim));
 			$this->debug("in invoke_method, class=$class method=$method delim=$delim");

@@ -4,10 +4,10 @@ require_once XCUBE_CORE_PATH . '/XCube_HttpContext.class.php';
 function XC_CLASS_EXISTS($className)
 {
 	if (version_compare(PHP_VERSION, "5.0", ">=")) {
-		return class_exists($className, false);
+		return XC_CLASS_EXISTS($className, false);
 	}
 	else {
-		return class_exists($className);
+		return XC_CLASS_EXISTS($className);
 	}
 }
 class XCube_Root
