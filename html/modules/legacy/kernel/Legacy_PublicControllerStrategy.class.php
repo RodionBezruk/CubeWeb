@@ -53,7 +53,7 @@ class Legacy_PublicControllerStrategy extends Legacy_AbstractControllerStrategy
 				return $theme;
 			}
 		}
-		$objs =& $theme->getObjects();
+		$objs =& $handler->getObjects();
 		if (count($objs) > 0) {
 			return $objs[0];
 		}
