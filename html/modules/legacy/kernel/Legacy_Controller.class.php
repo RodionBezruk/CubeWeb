@@ -516,7 +516,7 @@ class Legacy_Controller extends XCube_Controller
 		if (!is_object($this->mRoot->mContext->mXoopsUser)) {
 			$this->mCheckLogin->call(new XCube_Ref($this->mRoot->mContext->mXoopsUser));
 			$this->mRoot->mLanguageManager->loadModuleMessageCatalog('legacy');
-			if(is_object($this->mRoot->mContext->mXoopsUser)) {
+			if (is_object($this->mRoot->mContext->mXoopsUser)) {
 				$notification_handler =& xoops_gethandler('notification');
 				$notification_handler->doLoginMaintenance($this->mRoot->mContext->mXoopsUser->get('uid'));
 				XCube_DelegateUtils::call("Site.CheckLogin.Success", new XCube_Ref($this->mRoot->mContext->mXoopsUser));
