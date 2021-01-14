@@ -137,6 +137,17 @@ class User_LegacypageFunctions
 		}
 		$handler =& xoops_gethandler('user');
 		$user =& $handler->get($userArr[0]->get('uid'));
+		if (is_callable(array($user, "getNumGroups"))) { 
+			if ($user->getNumGroups() == 0) {
+				return;
+			}
+		}
+		else {
+			$groups = $user->getGroups();
+			if (count($groups) == 0) {
+				return;
+			}
+		}
 		$xoopsUser = $user;
 		$root->mSession->regenerate();
 		$_SESSION = array();

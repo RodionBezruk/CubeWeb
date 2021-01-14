@@ -44,6 +44,11 @@ class UserUsersObject extends XoopsSimpleObject
 	{
 		return $this->Groups;
 	}
+	function getNumGroups()
+	{
+		$this->_loadGroups();
+		return count($this->Groups);
+	}
 	function _loadGroups()
 	{
 		if (!$this->_mGroupsLoadedFlag) {

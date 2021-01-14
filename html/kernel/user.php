@@ -96,6 +96,13 @@ class XoopsUser extends XoopsObject
         }
         return $this->_groups;
     }
+    function getNumGroups()
+	{
+		if (empty($this->_groups)) {
+			$this->getGroups();
+		}
+		return count($this->_groups);
+	}
     function groups()
     {
         return $this->getGroups();
