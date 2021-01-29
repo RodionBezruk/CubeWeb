@@ -68,11 +68,14 @@ class Legacy_RenderSystem extends XCube_RenderSystem
 	var $_mContentsData = null;
 	var $mSetupXoopsTpl = null;
 	var $_mIsActiveBanner = false;
+	var $mBeginRender = null;
 	function Legacy_RenderSystem()
 	{
 		parent::XCube_RenderSystem();
 		$this->mSetupXoopsTpl =& new XCube_Delegate();
 		$this->mSetupXoopsTpl->register('Legacy_RenderSystem.SetupXoopsTpl');
+		$this->mBeginRender =& new XCube_Delegate();
+		$this->mBeginRender->register("Legacy_RenderSystem.BeginRender");
 	}
 	function prepare(&$controller)
 	{
@@ -174,6 +177,7 @@ class Legacy_RenderSystem extends XCube_RenderSystem
 		foreach($target->getAttributes() as $key=>$value) {
 			$this->mXoopsTpl->assign($key,$value);
 		}
+		$this->mBeginRender->call(new XCube_Ref($this->mXoopsTpl));
 		$result=&$this->mXoopsTpl->fetchBlock($target->getTemplateName(),$target->getAttribute("bid"));
 		$target->setResult($result);
 		foreach($target->getAttributes() as $key=>$value) {
@@ -185,6 +189,7 @@ class Legacy_RenderSystem extends XCube_RenderSystem
 		foreach($target->getAttributes() as $key=>$value) {
 			$this->mXoopsTpl->assign($key,$value);
 		}
+		$this->mBeginRender->call(new XCube_Ref($this->mXoopsTpl), $target->getAttribute('legacy_buffertype'));
 		$result=$this->mXoopsTpl->fetch("db:".$target->getTemplateName());
 		$target->setResult($result);
 		foreach ($target->getAttributes() as $key => $value) {
@@ -260,6 +265,7 @@ class Legacy_RenderSystem extends XCube_RenderSystem
 				}
 			}
 		}
+		$this->mBeginRender->call(new XCube_Ref($this->mXoopsTpl));
 		$result=null;
 		if($target->getAttribute("isFileTheme")) {
 			$result=$this->mXoopsTpl->fetch($target->getTemplateName()."/theme.html");
