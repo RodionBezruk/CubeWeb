@@ -24,7 +24,7 @@ define("_MB_LEGACY_RECO","Recomende-nos");
 define("_MB_LEGACY_SADMIN","Mostrar grupos administrativos");
 define("_MB_LEGACY_SEARCH","Pesquisa");
 define("_MB_LEGACY_SUBMS","Conteúdo pendente");
-define("_MB_LEGACY_VACNT","Perfil");
+define("_MB_LEGACY_VACNT","Sobre mim");
 define("_MB_LEGACY_WDLS","Arquivos pendentes");
 define("_MB_LEGACY_WLNKS","Endereços pendentes");
 ?>
